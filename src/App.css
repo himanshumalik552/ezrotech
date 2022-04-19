@@ -1,0 +1,24 @@
+
+#background-image1 {
+    background-image: url("https://grorapidassets.s3.amazonaws.com/images/webinartemplate/Feedback/bg_image.png");
+    background-size: cover;
+}
+.footer-background-color {
+    background-color: #5D3F2B;
+  }
+.btn_primary_about{
+    text-decoration: none;
+    color: white;
+    transition: 500ms;
+    background-color: transparent;
+    border-radius: 4px;
+    
+}
+.btn_primary_about:hover{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.759);
+    background-color: blueviolet;
+    border-color: blueviolet;
+    transition: 500ms;
+    border-radius: 4px;
+}
