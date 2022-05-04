@@ -1,6 +1,6 @@
 
 import React from 'react'
-import TechData from '../techteam/TeamData';
+// import TechData from '../techteam/TeamData';
 import '../techteam/TechTeam.css'
 const TechTeam = () => {
   // const  facebookLink = "";
@@ -9,31 +9,35 @@ const TechTeam = () => {
   // const  linkedinLink = "";
   return (
    <>
-   <div class="container">
-    <div class="row justify-content-center">
-      {TechData.map((item)=>{
-        return(
-<div class=" col-xs-12 col-md-4  col-lg-3 py-32 px-32">
-      <div class="our-team">
-        <div class="picture">
-          <img class="img-fluid" alt='team' src="https://picsum.photos/130/130?image=1027"/>
+  <div class=" row py-40 justify-content-evenly">
+      <div class="techcard  col-lg-4 py-20 ">
+        <div class="imgBx py-20">
+            <img src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"/>
         </div>
-        <div class="team-content">
-          <h3 class="name">{item.name}</h3>
-          <h4 class="title">Web Developer</h4>
+        <div class="details">
+            <h2>SomeOne Famous<br/><span>Director</span></h2>
         </div>
-        {/* <ul class="social">
-          <li><a href={facebookLink} class="fa fa-facebook" aria-hidden="true"></a></li>
-          <li><a href={twitterLink} class="fa fa-twitter" aria-hidden="true"></a></li>
-          <li><a href={googleLink} class="fa fa-google-plus" aria-hidden="true"></a></li>
-          <li><a href={linkedinLink} class="fa fa-linkedin" aria-hidden="true"></a></li>
-        </ul> */}
       </div>
-    </div>
-        )
-      }) }
+    
+       <div class="techcard col-lg-4 py-20  ">
+         <div class="imgBx">
+            <img src="https://images.unsplash.com/photo-1549417229-aa67d3263c09?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"/>
+         </div>
+         <div class="details">
+            <h2>SomeOne Famous<br/><span>Producer</span></h2>
+          </div>
+       </div>
+
+       <div class="techcard  col-lg-4 py-20  ">
+         <div class="imgBx">
+            <img src="https://images.unsplash.com/photo-1548094878-84ced0f6896d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="images"/>
+         </div>
+         <div class="details">
+            <h2>SomeOne Famous<br/><span>Actor</span></h2>
+          </div>
+       </div>
+ 
   </div>
-</div>
    </>
   )
 }
