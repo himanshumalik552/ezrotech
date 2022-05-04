@@ -7,7 +7,7 @@ const WhatsApp = () => {
     phoneNo="9761955118"
     position="right"
     widgetWidth="300px" 
-    widgetWidthMobile="260px"
+    widgetWidthMobile="100px"
     autoOpen={false}
     autoOpenTimer={2000}
     messageBox={true}
@@ -15,7 +15,7 @@ const WhatsApp = () => {
     iconSize="60"
     iconColor="white"
     iconBgColor="tomato"
-    headerIcon="https://proficientdesigners.in/wp-content/themes/pd/img/logo-new.png"
+    headerIcon=""
     headerIconColor="pink"
     headerTxtColor="black"
     headerBgColor="tomato"

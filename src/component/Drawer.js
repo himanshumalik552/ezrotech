@@ -9,7 +9,6 @@ import {
   makeStyles,
 } from "@material-ui/core";
 import { Link } from "react-router-dom";
-
 import MenuIcon from "@material-ui/icons/Menu";
 
 const useStyles = makeStyles(()=>({
@@ -35,13 +34,25 @@ function DrawerComponent() {
         <List>
         <ListItem onClick={() => setOpenDrawer(false)}>
             <ListItemText>
-              <Link to="/" className={classes.link}>Home</Link>
+              <Link to="/home" className={classes.link}>Home</Link>
+            </ListItemText>
+          </ListItem>
+          <Divider/>
+          <ListItem onClick={() => setOpenDrawer(false)}>
+            <ListItemText>
+              <Link to="/" className={classes.link}>Services</Link>
             </ListItemText>
           </ListItem>
           <Divider/>
           <ListItem onClick={() => setOpenDrawer(false)}>
             <ListItemText>
               <Link to="/about" className={classes.link}>About</Link>
+            </ListItemText>
+          </ListItem>
+          <Divider/>
+          <ListItem onClick={() => setOpenDrawer(false)}>
+            <ListItemText>
+              <Link to="/techteam" className={classes.link}>OurTeam</Link>
             </ListItemText>
           </ListItem>
           <Divider/>
