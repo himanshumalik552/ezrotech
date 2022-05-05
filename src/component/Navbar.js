@@ -1,30 +1,31 @@
 import React from "react";
+import { makeStyles } from '@mui/styles';
 import {
   AppBar,
   Toolbar,
   CssBaseline,
   Typography,
-  makeStyles,
   useTheme,
   useMediaQuery,
-} from "@material-ui/core";
+} from "@mui/material";
 import { Link } from "react-router-dom";
 import DrawerComponent from "./Drawer";
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(() => ({
   navlinks: {
-    marginLeft: theme.spacing(5),
+    marginLeft: "30px",
     display: "flex",
   },
   logo: {
     flexGrow: "1",
     cursor: "pointer",
   },
+
   link: {
     textDecoration: "none",
     color: "white",
     fontSize: "20px",
-    marginLeft: theme.spacing(5),
+    marginLeft: "30px",
     "&:hover": {
       color: "yellow",
       borderBottom: "1px solid white",
@@ -38,11 +39,18 @@ function Navbar() {
   const isMobile = useMediaQuery(theme.breakpoints.down("md"));
 
   return (
-    <AppBar position="static">
+    <>
+  
+    <AppBar position="fixed" style={{backgroundColor:"transparent"}} >
+
       <CssBaseline />
+      
       <Toolbar>
+        
         <Typography variant="h4" className={classes.logo}>
-          Navbar
+        <Link to="/" >
+             Logo 
+         </Link>
         </Typography>
         {isMobile ? (
           <DrawerComponent />
@@ -57,17 +65,17 @@ function Navbar() {
             <Link to="/techteam" className={classes.link}>
               OurTeam
             </Link>
-            <Link to="/contact" className={classes.link}>
-              Contact
+            <Link to="/about" className={classes.link}>
+              AboutUs
             </Link>
-            <Link to="/faq" className={classes.link}>
-              FAQ
+            <Link to="/footer" className={classes.link}>
+            Footer
             </Link>
-     
           </div>
         )}
       </Toolbar>
     </AppBar>
+    </>
   );
 }
 export default Navbar;

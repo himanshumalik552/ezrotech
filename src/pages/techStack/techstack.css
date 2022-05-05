@@ -75,10 +75,6 @@
 	object-fit: cover;
 }
 
-
-
-
-
 .container_tach .card .sci {
 	position: absolute;
 	bottom: 10px;
@@ -99,6 +95,7 @@
 
 .container_tach .card .sci li a {
 	text-decoration: none;
-	color: gray;
+	color: white;
 	font-size: 20px;
 }
+

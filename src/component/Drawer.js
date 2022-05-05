@@ -1,25 +1,29 @@
 import React, { useState } from "react";
+import { makeStyles } from '@mui/styles';
 import {
-    Divider,
+   Divider,
   Drawer,
   IconButton,
   List,
   ListItem,
   ListItemText,
-  makeStyles,
-} from "@material-ui/core";
+} from "@mui/material";
 import { Link } from "react-router-dom";
-import MenuIcon from "@material-ui/icons/Menu";
+import MenuIcon from '@mui/icons-material/Menu';
 
 const useStyles = makeStyles(()=>({
     link:{
         textDecoration:"none",
         color: "blue",
         fontSize: "20px",
+
     },
     icon:{
         color: "white"
-    }
+    },
+    list:{
+     width:"200px"
+  }
 }));
 
 function DrawerComponent() {
@@ -30,8 +34,9 @@ function DrawerComponent() {
       <Drawer
         open={openDrawer}
         onClose={() => setOpenDrawer(false)}
+       
       >
-        <List>
+        <List  className={classes.list}>
         <ListItem onClick={() => setOpenDrawer(false)}>
             <ListItemText>
               <Link to="/home" className={classes.link}>Home</Link>
@@ -58,20 +63,14 @@ function DrawerComponent() {
           <Divider/>
           <ListItem onClick={() => setOpenDrawer(false)}>
             <ListItemText>
-              <Link to="/contact" className={classes.link}>Contact</Link>
-            </ListItemText>
-          </ListItem>
-          <Divider/>
-          <ListItem onClick={() => setOpenDrawer(false)}>
-            <ListItemText>
-              <Link to="/about" className={classes.link}>Faq</Link>
+              <Link to="/footer" className={classes.link}>Footer</Link>
             </ListItemText>
           </ListItem>
           <Divider/>
         </List>
       </Drawer>
-      <IconButton onClick={() => setOpenDrawer(!openDrawer)}className={classes.icon}>
-        <MenuIcon />
+      <IconButton onClick={() => setOpenDrawer(!openDrawer)}  >
+        <MenuIcon className={classes.icon} />
       </IconButton>
     </>
   );

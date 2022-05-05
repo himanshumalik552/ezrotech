@@ -1,15 +1,12 @@
 import React from 'react'
-import TeamData from './TeamData'
-import './TechTeam.css'
-const TechTeam = () => {
+import ClientData from './ClientData'
+
+const OurClient = () => {
   return (
     <div> 
-      <div class="bg_techteam"></div>
-      <div class="bg_techteam bg2_techteam"></div>
-      <div class="bg_techteam bg3_techteam"></div>
-   <section className="wrapper   py-48 ">
+   <section className="wrapper  bg_color3 py-32 ">
     <div className=" py-32 mx-auto">
-      <div className="row flex-column align-items-center text-align-center ">
+      <div className="row flex-column align-items-center  ">
         <div className="col-lg-5 col-md-10 col-xs-12   ">
           <h5 className="space text-color-development_color_1 py-8">
             TESTIMONIALS
@@ -24,15 +21,15 @@ const TechTeam = () => {
         </div>
       </div>
       <div className="row justify-content-evenly">
-        {TeamData.map((item ,index)=>{
+        {ClientData.map((item ,index)=>{
           return(
 
             <div key={index} className="col-lg-4 col-md-8 col-xs-12  px-lg-20 py-lg-24 px-md-48 py-md-36 px-16 py-16">
               <div className=" cardteam px-lg-28 py-lg-24 px-18 py-16  border-radius-10">
               <div className="display-flex justify-content-center py-8  border-bottom mx-lg-16">
                 <div className="  ">
-                  <img src={item.image}
-                    alt={item.name} className="border-circle" />
+                  <img src="https://grorapidassets.s3.amazonaws.com/images/webinartemplate/Travel Agency/men1.png"
+                    alt="image" className="border-circle" />
                 </div>
                 <div className=" pl-16">
                   <h6 className=" teamname font-weight-700 text-color-development_color_4  ">
@@ -48,8 +45,8 @@ const TechTeam = () => {
               </p>
               <div className="">
                 <div className="text-align-end">
-                  <img src={item.icon}
-                    alt={item.title} className="" />
+                  <img src="https://grorapidassets.s3.amazonaws.com/images/webinartemplate/Travel Agency/Icon Color.png"
+                    alt="image" className="" />
                 </div>
               </div>
             </div>
@@ -63,4 +60,4 @@ const TechTeam = () => {
   )
 }
 
-export default TechTeam
+export default OurClient

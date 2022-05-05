@@ -5,13 +5,13 @@ const CardTach = (props) => {
   return (
     <>
   
-      <div class="card">
-				<div class="content">
-					<div class="imgBx">
+      <div className="card">
+				<div className="content">
+					<div className="imgBx">
 						<img  src={props.image} alt={props.techName} />
 					</div>
 				</div>
-				<ul class="sci">
+				<ul className="sci">
 					<li>
 						<a href={aboutURL}>{props.techName}</a>
 					</li>

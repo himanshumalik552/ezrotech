@@ -1,84 +1,72 @@
-
-.techcard{
-  padding: 20px 30px;
-  position: relative;
-  width: 300px;
-  height: 350px;
-  background: #fff;
-
-  border-radius: 4px;
-  box-shadow:0 2px 10px rgba(0,0,0,.2);
+*{
+  margin: 0;
+  padding: 0; 
+  font-family: 'Poppins', sans-serif;
 }
-.techcard:before,
-.techcard:after
-{
- 
-  content:"";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 4px;
-  background: #fff;
-  transition: 0.5s;
+.bg_techteam {
+  animation:slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, rgb(106, 129, 97) 50%, rgb(64, 93, 112) 50%);
+  bottom:0;
+  left:-70%;
+  opacity:.5;
+  position:fixed;
+  right:-70%;
+  top:0;
   z-index:-1;
 }
-.techcard:hover:before{
-transform: rotate(20deg);
-box-shadow: 0 2px 20px rgba(0,0,0,.2);
-}
-.techcard:hover:after{
-transform: rotate(10deg);
-box-shadow: 0 2px 20px rgba(0,0,0,.2);
-}
-.techcard .imgBx{
-position: absolute;
-top: 10px;
-left: 10px;
-bottom: 10px;
-right: 10px;
-background: #222;
-transition: 0.5s;
-z-index: 1;
+
+.bg2_techteam {
+  animation-direction:alternate-reverse;
+  animation-duration:4s;
 }
 
-.techcard:hover .imgBx
-{
-  bottom: 80px;
+.bg3_techteam {
+  animation-duration:5s;
 }
 
-.techcard .imgBx img{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+
+  100% {
+    transform:translateX(25%);
+  }
 }
 
-.techcard .details{
-    position: absolute;
-    left: 10px;
-    right: 10px;
-    bottom: 10px;
-    height: 60px;
-    text-align: center;
+.bg_color3{
+  background-color: #7e7676;
+}
+.space {
+  letter-spacing: 3px;
 }
 
-.techcard .details h2{
- margin: 0;
- padding: 0;
- font-weight: 600;
- font-size: 20px;
- color: #777;
- text-transform: uppercase;
-} 
+.cardteam{
+   
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+  transition: 0.5s;
+}
+.cardteam:hover {
 
-.techcard .details h2 span{
-font-weight: 500;
-font-size: 16px;
-color: #f38695;
-display: block;
-margin-top: 5px;
- } 
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+}
+.text-color-development_color_1 {
+ color: #162149;
+
+}
+.text-color-development_color_4 {
+  color: #493434;
+}
+
+.text-color-development_color_3 {
+  color: rgb(224, 221, 214);
+}
+.teamname{
+  font-size: 20px;
+}
+.content{
+ color: #102779;
+}
+.heading{
+  color:  linear-gradient(red, yellow);;
+}
