@@ -56,10 +56,10 @@ function Navbar() {
           <DrawerComponent />
         ) : (
           <div className={classes.navlinks}>
-            <Link to="/home" className={classes.link}>
+            <Link to="/" className={classes.link}>
               Home
             </Link>
-            <Link to="/" className={classes.link}>
+            <Link to="/services" className={classes.link}>
               Services
             </Link>
             <Link to="/techteam" className={classes.link}>
@@ -68,9 +68,7 @@ function Navbar() {
             <Link to="/about" className={classes.link}>
               AboutUs
             </Link>
-            <Link to="/footer" className={classes.link}>
-            Footer
-            </Link>
+           
           </div>
         )}
       </Toolbar>

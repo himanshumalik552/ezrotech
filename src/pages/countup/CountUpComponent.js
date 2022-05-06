@@ -8,7 +8,7 @@ import CountUpData from "./CountUpData";
 export default function CountUpComponent() {
   const myStyle = {
     color: "white",
-    backgroundColor: "skyblue",
+    
     fontFamily: "Sans-Serif",
     borderRadius: "10px",
     padding: "32px",
@@ -19,9 +19,7 @@ export default function CountUpComponent() {
       <Box>
         <Grid container justifyContent={"center"} paddingY={"30px"}>
           <Grid item>
-            <Typography variant="h2" fontWeight={700} color="GrayText">
-              Our Achievement
-            </Typography>
+           
           </Grid>
         </Grid>
       </Box>

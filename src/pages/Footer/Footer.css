@@ -1,12 +1,15 @@
 
+.footer{
+  box-shadow: rgba(0, 0, 0, 0.50) 0px 10px 20px;
+  border-radius: 10px;
+}
+
   /* Style the Un-order list by setting its list-style to none */
   .wrapper_footer ul {
     list-style: none;
   }
   
-  /* Style the list items inside the UL list, by setting its width, height and line-height 
-    and float them to left and set its border and border-radius.
-   */
+
   .wrapper_footer ul li {
     width: 60px;
     height: 60px;
@@ -19,18 +22,14 @@
     float: left;
     transition: all 0.5s ease;
   }
-  
-  /* Style the icons by setting its color and margin-top value to 20px 
-  to align it properly */
+
   .wrapper_footer ul li .fa {
     color: #D8E2DC;
     margin-top: 10px;
     transition: all 0.5s ease;
   }
   
-  /* Now target the specific li classes for styling and use box-shadow effect to border and text-shadow effect
-    to icons for glowing effect and use transition property for smooth transition effect. */
-  /*facebook*/
+  
   .wrapper_footer ul li:hover.facebook {
     border: 5px solid #3b5998;
     box-shadow: 0 0 15px #3b5998;

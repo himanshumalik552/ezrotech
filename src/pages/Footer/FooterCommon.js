@@ -12,12 +12,12 @@ const FooterCommon = () => {
   return (
     <div>
       <section
-  className="wrapper   px-32 py-10">
-  <div className="container-xxl py-32  mx-auto   footer_bg_color">
+  className="wrapper   px-48 py-20">
+  <div className="container-xxl py-32  mx-auto  footer ">
 
       <div className="row justify-content-center align-items-center ">
         <div className="col-lg-4 col-md-12 col-xs-12 py-12 text-align-center">
-          <p className="body1 mb-0 text-color-white">© Copyright 2020 - Grorapid. All rights reserved
+          <p className="body1 mb-0 text-color-white">© Copyright 2022 - EzroTech. All rights reserved
           </p>
         </div>
         <div

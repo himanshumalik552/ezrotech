@@ -1,4 +1,5 @@
 import React from "react";
+import 'animate.css';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import './css/Framework.css';
 import './css/App.css';
@@ -15,10 +16,10 @@ function App() {
     <Router>
       <Navbar />
       <Switch>
-        <Route exact path="/home" component={Home} />
+        <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/techteam" component={TechTeam} />
-        <Route path="/" component={Services} />
+        <Route path="/services" component={Services} />
         <Route path="/footer" component={FooterCommon} />
       </Switch>
         <FooterCommon/>

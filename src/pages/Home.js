@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 const Home = () => {
   let aboutURL = "";
   return (
@@ -7,15 +8,17 @@ const Home = () => {
       <div className="bg_home"></div>
       <div className="bg_home bg2_home"></div>
       <div className="bg_home bg3_home"></div>
-      <section className=" wapper  py-lg-72 py-32  ">
+ 
+      <section className="  wapper py-lg-72 py-32 wow slideInLeft " data-wow-duration="2s" data-wow-delay="5s">
         <div className=" border-radius-10 mx-auto text-color-white">
           <div className="row py-32 flex-column justify-content-center align-items-center text-color-white ">
+            
             <div className="col-lg-8 col-md-11 col-xs-12 text-align-center py-4">
-              <h2 className=" h1 heading pt-64 ">
+              <h2 className="animate__bounce h1 heading pt-64 ">
                 Your Business in a single Web Development
               </h2>
             </div>
-            <div className="col-lg-6 col-md-9 col-xs-11  text-align-center py-lg-64 pb-xs-20">
+            <div className=" col-lg-6 col-md-9 col-xs-11  text-align-center py-lg-64 pb-xs-20">
               <p className="p  font-weight-300">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Pellentesque at erat sed erat posuere elementum eget id neque
@@ -24,12 +27,12 @@ const Home = () => {
               </p>
             </div>
             <div className="py-32 text-align-center">
-              <a
-                href={aboutURL}
+              <Link
+                to={"./about"}
                 className="btn_primary_about py-18 px-48 border"
               >
                 About Us
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -61,7 +64,7 @@ const Home = () => {
                 <div className="py-16 row">
                   <a
                     href={aboutURL}
-                    className=" btn_primary  px-32 border-radius-4  py-12 fontWeight-500     "
+                    className=" btn_primary  px-32 border-radius-4  py-12 fontWeight-500  border   "
                   >
                     Get Started
                   </a>
@@ -112,7 +115,7 @@ const Home = () => {
                 <div className="py-16 row ">
                   <a
                     href={aboutURL}
-                    className=" btn_primary  px-32  border-radius-4 py-12 fontWeight-500 border  "
+                    className=" btn_primary  px-32  border-radius-4 py-12 fontWeight-500 border "
                   >
                     Get Started
                   </a>
