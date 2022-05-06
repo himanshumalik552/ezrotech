@@ -7,7 +7,7 @@ import Navbar from "./component/Navbar";
 import Home from "./pages/Home";
 import About from "./pages/AboutUs";
 import TechTeam from "./pages/techteam/TechTeam";
-import Services from './pages/Services'
+import Services from './pages/services/Services';
 import FooterCommon from "./pages/Footer/FooterCommon";
 import WhatsApp from "./pages/WhatsApp";
 function App() {
