@@ -12,12 +12,12 @@ const FooterCommon = () => {
   return (
     <div>
       <section
-  className="wrapper   px-48 py-20">
+  className="wrapper   px-lg-48 px-xs-0 py-20">
   <div className="container-xxl py-32  mx-auto  footer ">
 
       <div className="row justify-content-center align-items-center ">
         <div className="col-lg-4 col-md-12 col-xs-12 py-12 text-align-center">
-          <p className="body1 mb-0 text-color-white">© Copyright 2022 - EzroTech. All rights reserved
+          <p className="body1 px-8 text-color-white">© Copyright 2022 - EzroTech. All rights reserved
           </p>
         </div>
         <div
@@ -30,7 +30,7 @@ const FooterCommon = () => {
           className="col-lg-4 text-align-center col-xs-12 py-12 col-md-12 mr-lg-0 py-xs-16">
             
 <div className="wrapper_footer">
-  <ul>
+  <ul  className=' row justify-content-center  '>
     <li className="facebook"><Link href={facebook}><i className="fa fa-facebook fa-2x" aria-hidden="true"></i></Link></li>
     <li className="twitter"><Link href={twitter}><i className="fa fa-twitter fa-2x" aria-hidden="true"></i></Link></li>
     <li className="instagram"><Link href={instagram}><i className="fa fa-instagram fa-2x" aria-hidden="true"></i></Link></li>
