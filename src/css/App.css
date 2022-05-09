@@ -3,6 +3,10 @@
   padding: 0;
   font-family: 'Poppins', sans-serif
 }
+/* navbar */
+.smooth{
+scroll-behavior: smooth;
+}
 /* Home page */
 .bg_home {
   animation:slide 3s ease-in-out infinite alternate;
