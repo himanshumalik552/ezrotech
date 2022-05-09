@@ -22,20 +22,9 @@
 }
 
 .bg3_home {
-  animation-duration:3s;
+  animation-duration:2.5s;
 }
 
-@keyframes slide {
-  0% {
-    transform:translateX(-25%);
-  }
-  50% {
-    transform:translateX(10%);
-  }
-  100% {
-    transform:translateX(25%);
-  }
-}
 /* auto change text */
 
 /* section 2 */

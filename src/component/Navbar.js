@@ -41,7 +41,7 @@ function Navbar() {
   return (
     <>
   
-    <AppBar position="static" style={{backgroundColor:"transparent"}} >
+    <AppBar position="fixed" style={{backgroundColor:"transparent"}} >
 
       <CssBaseline />
       
