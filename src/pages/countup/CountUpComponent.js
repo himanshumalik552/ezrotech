@@ -11,12 +11,11 @@ export default function CountUpComponent() {
     boxShadow: "0 4px 8px 0 rgba(0,0,0,0.4)",
     fontFamily: "Sans-Serif",
     borderRadius: "10px",
-    padding: "32px",
   };
 
   return (
     <Container className="py-20">
-      <Box sx={{ flexGrow: 1 }} style={myStyle}>
+      <Box sx={{ flexGrow: 1 }} style={myStyle} className="py-xs-32 py-32 px-xs-0 px-lg-32">
         <Grid
           container
           justifyContent="center"

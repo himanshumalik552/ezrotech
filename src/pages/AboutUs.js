@@ -22,7 +22,7 @@ const AboutUs = () => {
             </div>
           </header>
           <CountUpComponent />
-          <div class="row justify-content-center about-container py-20">
+          <div class="row justify-content-center about-container py-lg-32 py-20">
             <div class="col-lg-6 col-md-11 col-xs-12 content order-lg-1 order-2">
               <h4 className="h3">
                 Voluptatem dignissimos provident quasi corporis voluptates sit
@@ -74,7 +74,7 @@ const AboutUs = () => {
             </div>
           </div>
 
-          <div class="row justify-content-center about-container py-20">
+          <div class="row justify-content-center about-container py-lg-32 py-20">
             <div class="col-lg-6 col-md-11 col-xs-12 background order-lg-2 order-1 py-xs-20 px-lg-20 px-0 wow fadeInUp">
               <img src={About1} class="width-100" alt="" />
             </div>
@@ -125,7 +125,7 @@ const AboutUs = () => {
             </div>
           </div>
 
-          <div class="row justify-content-center about-container py-20">
+          <div class="row justify-content-center about-container py-lg-32 py-20">
             <div class="col-lg-6 col-md-11 col-xs-12 content order-lg-1 order-2">
               <h4 className="h3">
                 Voluptatem dignissimos provident quasi corporis voluptates sit
