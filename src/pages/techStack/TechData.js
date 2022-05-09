@@ -18,78 +18,93 @@ const TechData = [
     {
         id: 0,
         imageUrl: HTML,
-        techName: "HTML5"
+        techName: "HTML5",
+        delay:"0.2s"
     },
     {
         id: 1,
         imageUrl: CSS,
-        techName: "CSS3"
+        techName: "CSS3",
+        delay:"0.4s"
     },
     {
         id: 2,
         imageUrl: BOOTSTRAP,
-        techName: "BootStrap"
+        techName: "BootStrap",
+        delay:"0.6s"
     },
     {
         id: 3,
         imageUrl: JAVASCRIPT,
-        techName: "JavaScript"
+        techName: "JavaScript",
+        delay:"0.2s"
     },
     {
         id: 4,
         imageUrl: REACTJS,
-        techName: "React JS"
+        techName: "React JS",
+        delay:"0.4s"
     },
     {
         id: 5,
         imageUrl: NEXTJS,
-        techName: "Naxt JS"
+        techName: "Naxt JS",
+        delay:"0.6s"
     },
     {
         id: 7,
         imageUrl: VUEJS,
-        techName: "Vue JS"
+        techName: "Vue JS",
+        delay:"0.8s"
     },
     {
         id: 8,
         imageUrl: NODEJS,
-        techName: "Node JS"
+        techName: "Node JS",
+        delay:"0.8s"
     },
     {
         id: 9,
         imageUrl: PHP,
-        techName: "PHP"
+        techName: "PHP",
+        delay:"0.8s"
     },
     {
         id: 10,
         imageUrl: JAVA,
-        techName: "JAVA"
+        techName: "JAVA",
+        delay:"0.8s"
     },
     {
         id: 11,
         imageUrl: ANDROID,
-        techName: "Android"
+        techName: "Android",
+        delay:"0.8s"
     },   
     {
         id: 12,
         imageUrl: SPRING,
-        techName: "Spring"
+        techName: "Spring",
+        delay:"0.8s"
     },
 
     {
         id: 13,
         imageUrl: POSTGRES,
-        techName: "Postgresql"
+        techName: "Postgresql",
+        delay:"0.8s"
     },
     {
         id: 14,
         imageUrl: MONGODB,
-        techName: "MongoDB"
+        techName: "MongoDB",
+        delay:"0.8s"
     },
     {
         id: 15,
         imageUrl: NESTJS,
-        techName: "NestJS"
+        techName: "NestJS",
+        delay:"0.8s"
     },
 ]
 
