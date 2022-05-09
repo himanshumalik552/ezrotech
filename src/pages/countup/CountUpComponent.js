@@ -2,7 +2,7 @@ import * as React from "react";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import CountUp from "react-countup";
-import { Container, Typography } from "@mui/material";
+import { Container} from "@mui/material";
 import CountUpData from "./CountUpData";
 
 export default function CountUpComponent() {
