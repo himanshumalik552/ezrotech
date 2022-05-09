@@ -16,7 +16,7 @@ const useStyles = makeStyles(()=>({
         textDecoration:"none",
         color: "blue",
         fontSize: "20px",
-
+        backgroundColor:"transparent"
     },
     icon:{
         color: "white"
@@ -34,6 +34,7 @@ function DrawerComponent() {
       <Drawer
         open={openDrawer}
         onClose={() => setOpenDrawer(false)}
+        
        
       >
         <List  className={classes.list}>

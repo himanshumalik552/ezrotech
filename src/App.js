@@ -33,13 +33,17 @@ function App() {
     
     <Router>
       <Navbar />
-      <Switch>
+      {/* <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/techteam" component={TechTeam} />
         <Route path="/services" component={Services} />
         <Route path="/footer" component={FooterCommon} />
-      </Switch>
+      </Switch> */}
+      <Home/>
+      <About/>
+      <Services/>
+      <TechTeam/>
         <FooterCommon/>
       <WhatsApp/>
     </Router>
