@@ -16,7 +16,7 @@ const CountUpData = [{
 {
     icon:Happy,
     counter:"20",
-    name:"Happy C.",
+    name:"Happy Client",
 
 }
 ]

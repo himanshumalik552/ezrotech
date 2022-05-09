@@ -53,14 +53,8 @@
   transition: 500ms;
 }
 /* Hero Section */
-#background-image1 {
-  background-image: url("https://grorapidassets.s3.amazonaws.com/images/webinartemplate/Feedback/bg_image.png");
-  background-size: cover;
-}
 
-.footer-background-color {
-  background-color: #5D3F2B;
-}
+
 
 .btn_primary_about {
   text-decoration: none;
@@ -127,9 +121,9 @@
 
 .bg_service {
   animation:slide 3s ease-in-out infinite alternate;
-  background-image: linear-gradient(-20deg, rgb(207, 88, 88) 50%, rgb(121, 37, 37) 50%);
+  background-image: linear-gradient(-60deg,  rgb(61, 117, 150) 50%, rgba(162, 163, 117, 0.973) 50%);
   bottom:0;
-  left:-20%;
+  left:-50%;
   opacity:.5;
   position:fixed;
   right:-50%;
@@ -143,9 +137,8 @@
 }
 
 .bg3_service {
-  animation-duration:5s;
+  animation-duration:3s;
 }
-
 @keyframes slide {
   0% {
     transform:translateX(-25%);
@@ -229,12 +222,11 @@
   font-weight: 600;
   font-size: 24px;
 }
-
 .bg_about {
   animation:slide 3s ease-in-out infinite alternate;
-  background-image: linear-gradient(-20deg, rgba(167, 133, 105, 0.877) 25%, rgb(86, 107, 117) 50%,rgb(40, 92, 66) 25%);
+  background-image: linear-gradient(-60deg,  rgb(48, 99, 141) 50%, rgb(86, 108, 189) 50%);
   bottom:0;
-  left:-100%;
+  left:-50%;
   opacity:.5;
   position:fixed;
   right:-50%;
@@ -244,16 +236,19 @@
 
 .bg2_about {
   animation-direction:alternate-reverse;
-  animation-duration:8s;
+  animation-duration:4s;
 }
 
 .bg3_about {
-  animation-duration:5s;
+  animation-duration:3s;
 }
 
 @keyframes slide {
   0% {
     transform:translateX(-25%);
+  }
+  50% {
+    transform:translateX(10%);
   }
   100% {
     transform:translateX(25%);

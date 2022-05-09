@@ -15,15 +15,7 @@ export default function CountUpComponent() {
   };
 
   return (
-    <Container className="py-72">
-      <Box>
-        <Grid container justifyContent={"center"} paddingY={"30px"}>
-          <Grid item>
-           
-          </Grid>
-        </Grid>
-      </Box>
-
+    <Container className="py-20">
       <Box sx={{ flexGrow: 1 }} style={myStyle}>
         <Grid
           container
@@ -38,10 +30,10 @@ export default function CountUpComponent() {
                   <img src={item.icon} alt={item.name} width={100} />
                 </Grid>
                 <Grid item>
-                  <Typography variant="h2" fontWeight={700}>
+                  <h2  className="h1" fontWeight={700}>
                     <CountUp end={item.counter} />+
-                  </Typography>
-                  <Typography variant="h4">{item.name}</Typography>
+                  </h2>
+                  <h3 className="h3" >{item.name}</h3>
                 </Grid>
               </Grid>
             </Grid>

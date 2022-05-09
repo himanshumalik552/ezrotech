@@ -2,15 +2,20 @@
 .footer{
   box-shadow: rgba(0, 0, 0, 0.50) 0px 10px 20px;
   border-radius: 10px;
+  
+
 }
 
   /* Style the Un-order list by setting its list-style to none */
   .wrapper_footer ul {
     list-style: none;
+    display: flex;
+    flex-wrap: wrap;
   }
   
 
   .wrapper_footer ul li {
+    
     width: 60px;
     height: 60px;
     line-height: 60px;
@@ -97,32 +102,7 @@
   
   /* media queries */
   
-  @media screen and (max-width: 640px){
-    .wrapper_footer {
-        width: 350px;
-    }
-    .wrapper_footer ul li{
-        margin-top: 10px;
-    }
-    .wrapper_footer ul li.google{
-        margin-left: 60px;
-    }
-  }
-  
-  
-  @media screen and (max-width: 340px){
-    .wrapper_footer {
-        width: 150px;
-    }
-    .wrapper_footer ul li{
-        margin:15px;
-    }
-    .wrapper_footer ul li.google{
-        margin-left: 15px;
-    }
-  }
-  
-  
+
   
   
   

@@ -9,15 +9,13 @@ const TechTeam = () => {
       <div class="bg_techteam bg3_techteam"></div>
    <section className="wrapper   py-48 ">
     <div className=" py-32 mx-auto">
-      <div className="row flex-column align-items-center text-align-center ">
+      <div className="row flex-column align-items-center text-align-center text-color-white ">
         <div className="col-lg-5 col-md-10 col-xs-12   ">
-          <h5 className="space text-color-development_color_1 py-8">
-            TESTIMONIALS
-          </h5>
-          <h3 className="h3 content py-8">
-            What Our Client says
+      
+          <h3 className="h2  py-8">
+          Our Teams
           </h3>
-          <p className="p content py-12">
+          <p className="p  py-12">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id pharetra ex. Mauris fringilla et tellus ac
             porttitor.
           </p>
