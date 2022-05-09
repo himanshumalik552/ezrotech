@@ -7,7 +7,7 @@ import About3 from "../images/about/about-extra-2.svg";
 const AboutUs = () => {
   return (
     <div>
-      <div className="bg_about container-xxl mx-auto"></div>
+      <div className="bg_about "></div>
       <div className="bg_about bg2_about"></div>
       <div className="bg_about bg3_about"></div>
       <section id="about" className="wrapper py-lg-72 py-48">

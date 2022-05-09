@@ -8,7 +8,7 @@ const Home = () => {
       <div className="bg_home"></div>
       <div className="bg_home bg2_home"></div>
       <div className="bg_home bg3_home"></div>
- 
+      
       <section className="  wapper py-lg-72 py-32  ">
         <div className=" border-radius-10 mx-auto text-color-white">
           <div className="row py-32 flex-column justify-content-center align-items-center text-color-white ">
