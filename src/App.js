@@ -1,9 +1,11 @@
 import React,{useEffect} from "react";
+import WOW from "wowjs";
 import 'animate.css';
+
 import { BrowserRouter as Router } from "react-router-dom";
 import './css/Framework.css';
 import './css/App.css';
-import WOW from "wowjs";
+
 import Navbar from "./component/Navbar";
 import Home from "./pages/Home";
 import About from "./pages/AboutUs";
@@ -20,13 +22,6 @@ function App() {
     new WOW.WOW({
       live: false
     }).init();
-
-   window.addEventListener("load",function() {
-      setTimeout(function(){
-          // This hides the address bar:
-          window.scrollTo(0, 1);
-      }, 0);
-  });
 
   }, [])
   return (

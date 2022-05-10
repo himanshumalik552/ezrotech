@@ -1,7 +1,14 @@
-import React from 'react'
+import React,{useEffect} from "react";
+import WOW from "wowjs";
 import TeamData from './TeamData'
 import './TechTeam.css'
 const TechTeam = () => {
+
+  useEffect(() => {
+    new WOW.WOW({
+      live: false
+    }).init();
+  }, [])
   return (
     <div> 
       <div class="bg_techteam"></div>

@@ -1,6 +1,13 @@
-import React from "react";
+import React,{useEffect} from "react";
+import WOW from "wowjs";
 import { Link } from "react-router-dom";
 const Home = () => {
+  useEffect(() => {
+    new WOW.WOW({
+      live: false
+    }).init();
+
+  }, [])
   let aboutURL = "";
   return (
     <>
@@ -14,12 +21,12 @@ const Home = () => {
           <div className="row py-32 flex-column justify-content-center align-items-center  ">
             
             <div className="col-lg-8 col-md-11 col-xs-12 text-align-center py-4">
-              <h2 className=" h1 heading pt-64 wow slideInRight ">
+              <h2 className=" h1 heading pt-64 wow fadeInRight ">
                 Your Business in a single Web Development
               </h2>
             </div>
-            <div className=" col-lg-6 col-md-9 col-xs-11  text-align-center py-lg-64 pb-xs-20 wow slideInLeft ">
-              <p className="p  font-weight-300">
+            <div className=" col-lg-6 col-md-9 col-xs-11  text-align-center py-lg-64 pb-xs-20 wow fadeInLeft ">
+              <p className="p py-20 font-weight-300">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Pellentesque at erat sed erat posuere elementum eget id neque
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -107,7 +114,7 @@ const Home = () => {
                     Beyond the tech
                   </h3>
 
-                  <p className="p  py-20 ">
+                  <p className="p  py-20 wow animate__fadeInLeft ">
                     At the core of our company is the drive to explore, to
                     venture into unknown territory and create something of
                     value. We’re eager to grow, to forge lifelong partnerships
