@@ -10,8 +10,8 @@ const Home = () => {
       <div className="bg_home bg3_home"></div>
       
       <section className="  wapper py-lg-72 py-32  ">
-        <div className=" border-radius-10 mx-auto text-color-white">
-          <div className="row py-32 flex-column justify-content-center align-items-center text-color-white ">
+        <div className=" border-radius-10 mx-auto ">
+          <div className="row py-32 flex-column justify-content-center align-items-center  ">
             
             <div className="col-lg-8 col-md-11 col-xs-12 text-align-center py-4">
               <h2 className=" h1 heading pt-64 wow slideInRight ">
@@ -45,16 +45,16 @@ const Home = () => {
               <div className="display-flex flex-column ">
                 <div className="col-lg-9 col-md-11 col-xs-12 ">
                   <div>
-                    <h3 className="  h2 text-color-white py-16 ">
+                    <h3 className="  h2  py-16 ">
                       We evolve with the times
                     </h3>
                   </div>
               <div className="wow animate__fadeInLeft" >
-                  <p className="p text-color-white ">
+                  <p className="p  ">
                     We explore emerging technologies to create amazing
                     experiences for users and business
                   </p>
-                  <p className="p text-color-white py-20 ">
+                  <p className="p  py-20 ">
                    
                     That means we spend time learning new languages and
                     frameworks so that your solution is made using the best
@@ -103,11 +103,11 @@ const Home = () => {
             <div className="col-lg-6 col-md-12 col-xs-12 py-20 my-0 display-flex justify-content-center flex-column  wow animate__fadeInRight">
               <div className="display-flex flex-column pl-lg-72 ">
                 <div className="col-lg-9 col-md-11 col-xs-12 ">
-                  <h3 className="  h2 text-color-white py-10">
+                  <h3 className="  h2  py-10">
                     Beyond the tech
                   </h3>
 
-                  <p className="p text-color-white py-20 ">
+                  <p className="p  py-20 ">
                     At the core of our company is the drive to explore, to
                     venture into unknown territory and create something of
                     value. We’re eager to grow, to forge lifelong partnerships

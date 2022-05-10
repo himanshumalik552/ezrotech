@@ -11,7 +11,7 @@ import TechTeam from "./pages/techteam/TechTeam";
 import Services from './pages/services/Services';
 import FooterCommon from "./pages/Footer/FooterCommon";
 import WhatsApp from "./pages/WhatsApp";
-
+import { Switch, Route } from "react-router-dom";
 
 
 function App() {
@@ -33,17 +33,14 @@ function App() {
     
     <Router>
       <Navbar />
-      {/* <Switch>
+      <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/techteam" component={TechTeam} />
         <Route path="/services" component={Services} />
         <Route path="/footer" component={FooterCommon} />
-      </Switch> */}
-      <Home/>
-      <About/>
-      <Services/>
-      <TechTeam/>
+      </Switch>
+
         <FooterCommon/>
       <WhatsApp/>
     </Router>

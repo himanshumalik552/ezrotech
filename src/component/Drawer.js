@@ -35,9 +35,13 @@ function DrawerComponent() {
         open={openDrawer}
         onClose={() => setOpenDrawer(false)}
         
-       
+        
       >
-        <List  className={classes.list}>
+        <List  className={classes.list} sx={{backgroundColor:"transparent"}}
+        >
+        <Link to="/" className="py-4 px-4 ">
+            <img alt='logo' src="https://grorapidassets.s3.amazonaws.com/images/webinartemplate/job/logo.png"
+              className="width-15" /></Link>
         <ListItem onClick={() => setOpenDrawer(false)}>
             <ListItemText>
               <Link to="/" className={classes.link}>Home</Link>

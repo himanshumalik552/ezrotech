@@ -48,9 +48,9 @@ function Navbar() {
       <Toolbar>
         
         <Typography variant="h4" className={classes.logo}>
-        <Link to="/" >
-             Logo 
-         </Link>
+        <Link to="/" className="py-4 px-4 ">
+            <img alt='logo' src="https://grorapidassets.s3.amazonaws.com/images/webinartemplate/job/logo.png"
+              className="width-15" /></Link>
         </Typography>
         {isMobile ? (
           <DrawerComponent />
