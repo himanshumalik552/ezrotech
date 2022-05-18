@@ -9,7 +9,7 @@
 {
   display: block;
 }
-@media (min-width: 375px) {
+@media (min-width: 400px) {
   .mobile_footer{
     display: none;
   }
