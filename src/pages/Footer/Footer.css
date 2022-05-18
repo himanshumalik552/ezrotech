@@ -2,18 +2,19 @@
 .footer{
   box-shadow: rgba(0, 0, 0, 0.50) 0px 10px 20px;
   border-radius: 10px;
+  display: none;
 }
 .mobile_footer
 {
-
-  box-shadow: rgba(0, 0, 0, 0.50) 5px 20px 20px;
+  box-shadow: rgba(168, 50, 50, 2) 10px 20px 20px;
+  display: none;
 }
-@media (min-width: 400px) {
+@media (max-width: 400px) {
   .mobile_footer{
-    display: none;
+    display: block;
   }
  .footer{
-  display: block;
+  display: none;
  }
 }
 
@@ -80,7 +81,7 @@
 .mobile_footer ul li:hover .fa-instagram {
   color: #bc2a8d;
   text-shadow: 0 0 15px #bc2a8d;
-  transition: all 0.5s ease;
+  transition: all 0.5s ease; 
 }
 
 /* google */

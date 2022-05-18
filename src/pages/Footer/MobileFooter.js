@@ -16,13 +16,11 @@ export const MobileFooter = () => {
     left: "0",
     bottom: "0",
     width: "100%",
-    boxShadow: "rgba(0, 0, 0, 0.50) 5px 20px 20px",
   };
   return (
-    <div className='mobile_footer' style={Style} >
-      
+  <div className='mobile_footer' style={Style} > 
   <ul  className=' row justify-content-center  '>
-    <li className="facebook"><Link href={facebook}><i className="fa fa-facebook fa-2x" aria-hidden="true"></i></Link></li>
+    <li className="facebook"><Link href="https://www.facebook.com"><i className="fa fa-facebook fa-2x" aria-hidden="true"></i></Link></li>
     <li className="twitter"><Link href={twitter}><i className="fa fa-twitter fa-2x" aria-hidden="true"></i></Link></li>
     <li className="instagram"><Link href={instagram}><i className="fa fa-instagram fa-2x" aria-hidden="true"></i></Link></li>
     <li className="google"><Link href={googleplus}><i className="fa fa-google fa-2x" aria-hidden="true"></i></Link></li>
