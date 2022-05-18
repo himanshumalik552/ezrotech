@@ -23,7 +23,7 @@ const Home = () => {
                 Your Business in a single Web Development
               </h2>
             </div>
-            <div className=" col-lg-6 col-md-9 col-xs-11  text-align-center py-lg-64 pb-xs-20 wow slideInLeft">
+            <div className=" col-lg-6 col-md-9 col-xs-11  text-align-center py-lg-64 py-48 wow slideInLeft">
               <p className="p py-20 font-weight-300">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Pellentesque at erat sed erat posuere elementum eget id neque

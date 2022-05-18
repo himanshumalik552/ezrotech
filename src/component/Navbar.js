@@ -41,7 +41,7 @@ function Navbar() {
   return (
     <>
   
-    <AppBar  className="smooth" position="fixed" style={{backgroundColor:"transparent"}} >
+    <AppBar   position="sticky" style={{backgroundColor:"ThreeDFace"}}  >
 
       <CssBaseline />
       

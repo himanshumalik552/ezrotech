@@ -2797,6 +2797,11 @@
   flex-direction: unset;
 }
 @media (min-width: 375px) {
+
+  .mobile_footer{
+    display: block;
+  }
+
   .mt-xs-m10 {
     margin-top: -10rem;
   }

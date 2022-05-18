@@ -1,4 +1,4 @@
-import React,{useEffect} from "react";
+import React, { useEffect } from "react";
 import WOW from "wowjs";
 import 'animate.css';
 
@@ -14,6 +14,7 @@ import Services from './pages/services/Services';
 import FooterCommon from "./pages/Footer/FooterCommon";
 import WhatsApp from "./pages/WhatsApp";
 import { Switch, Route } from "react-router-dom";
+import { MobileFooter } from "./pages/Footer/MobileFooter";
 
 
 function App() {
@@ -22,10 +23,10 @@ function App() {
     new WOW.WOW({
       live: false
     }).init();
-
+    window.onload = function () { setTimeout(function () { window.scrollTo(0, 1); }, 0); }
   }, [])
   return (
-    
+
     <Router>
       <Navbar />
       <Switch>
@@ -36,10 +37,11 @@ function App() {
         <Route path="/footer" component={FooterCommon} />
       </Switch>
 
-        <FooterCommon/>
-      <WhatsApp/>
+      <FooterCommon />
+      <MobileFooter/>
+      <WhatsApp />
     </Router>
-    
+
   );
 }
 export default App;
