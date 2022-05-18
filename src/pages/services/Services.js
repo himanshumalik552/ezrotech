@@ -33,7 +33,7 @@ const Services = () => {
         <div className="flex py-20  ">
           {ServiceData.map((service,index) => {
             return (
-              <div key={index} className=" service_cards background-color-white px-lg-28 py-lg-24 px-18 py-16 wow fadeInLeft border-radius-10 "  data-wow-delay={service.delay}>
+              <div key={index} className=" service_cards background-color-white px-lg-28 py-lg-24 px-18 py-16  border-radius-10 wow fadeInLeft"  data-wow-delay={service.delay}>
                 <div className=" py-16">
                   <img src={service.icon}
                     alt={service.name} className="icon_size_service" />

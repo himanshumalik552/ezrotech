@@ -1,4 +1,3 @@
-import { Android } from "@mui/icons-material";
 
 const TechData = 
     [
