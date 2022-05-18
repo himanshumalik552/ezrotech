@@ -2,12 +2,14 @@
 .footer{
   box-shadow: rgba(0, 0, 0, 0.50) 0px 10px 20px;
   border-radius: 10px;
-  display: none;
+
 
 }
 .mobile_footer
 {
   display: block;
+  box-shadow: rgba(0, 0, 0, 0.50) 5px 20px 20px;
+  background-color: transparent;
 }
 @media (min-width: 400px) {
   .mobile_footer{

@@ -19,11 +19,11 @@ const Home = () => {
         <div className=" border-radius-10 mx-auto text-color-white ">
           <div className="row py-32 flex-column justify-content-center align-items-center  wow animate__fadeInUp ">
             <div className="col-lg-8 col-md-11 col-xs-12 text-align-center py-4   ">
-              <h2 className=" h1 heading pt-64 wow animate__fadeInUp   "data-wow-delay="0.2s">
+              <h2 className=" h1 heading pt-64 wow animate__fadeInUp   "data-wow-delay="0.4s">
                 Your Business in a single Web Development
               </h2>
             </div>
-            <div className=" col-lg-6 col-md-9 col-xs-11  text-align-center py-lg-64 py-48  wow animate__fadeInUp "data-wow-delay="0.4s">
+            <div className=" col-lg-6 col-md-9 col-xs-11  text-align-center py-lg-64 py-48  wow animate__fadeInUp "data-wow-delay="0.6s">
               <p className="p py-20 font-weight-300">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Pellentesque at erat sed erat posuere elementum eget id neque
@@ -49,22 +49,22 @@ const Home = () => {
             <div className="col-lg-6 col-md-12 col-xs-12 py-20 pl-lg-72 my-0 display-flex justify-content-center flex-column ">
               <div className="display-flex flex-column ">
                 <div className="col-lg-9 col-md-11 col-xs-12 ">
-                  <div>
+                  <div className="py-32   wow animate__fadeInUp  "data-wow-delay="0.2s">
                     <h3 className="  h2  py-16 ">We evolve with the times</h3>
                   </div>
                   <div className="">
-                    <p className="p  ">
+                    <p className="p   wow animate__fadeInUp  "data-wow-delay="0.4s">
                       We explore emerging technologies to create amazing
                       experiences for users and business
                     </p>
-                    <p className="p  py-20 ">
+                    <p className="p    wow animate__fadeInUp  "data-wow-delay="0.6s">
                       That means we spend time learning new languages and
                       frameworks so that your solution is made using the best
                       possible tools and techniques
                     </p>
                   </div>
                 </div>
-                <div className="py-16 row ">
+                <div className="py-16 row wow animate__fadeInUp  "data-wow-delay="0.8s">
                   <a
                     href={aboutURL}
                     className=" btn_primary  px-32 border-radius-4  py-12 fontWeight-500  border   "
@@ -74,7 +74,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 col-md-12 col-xs-12 display-flex ">
+            <div className="col-lg-6 col-md-12 col-xs-12 display-flex  wow animate__fadeInUp  "data-wow-delay="0.2s">
               <div className="pl-lg-100">
                 <img
                   alt="section 2"

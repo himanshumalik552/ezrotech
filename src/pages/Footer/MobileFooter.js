@@ -1,11 +1,8 @@
 import React from 'react'
 
-
-
-
 export const MobileFooter = () => {
   const Style = {
-    backgroundColor: "ThreeDFace",
+
     textAlign: "center",
     padding: "20px",
     position: "fixed",
@@ -16,7 +13,7 @@ export const MobileFooter = () => {
   };
   return (
     <div className='mobile_footer' style={Style} >
- Footer
+
 </div>
   )
 }

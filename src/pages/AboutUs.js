@@ -21,14 +21,17 @@ const AboutUs = () => {
         <div className="container-xxl mx-auto">
           <header className="section-header row py-20 flex-column justify-content-center align-items-center text-align-center text-color-white">
             <div className="col-lg-8 col-xs-12">
-              <h3 className="h2  "> About Us</h3>
-              <p className="py-20 ">
+              <h3 className="h2  wow animate__fadeInUp  "data-wow-delay="0.2s"> About Us</h3>
+              <p className="py-20 wow animate__fadeInUp  "data-wow-delay="0.4s">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
             </div>
           </header>
-          <CountUpComponent />
+          <div className=" wow animate__fadeInUp  "data-wow-delay="0.8s"> 
+          <CountUpComponent  />
+          </div>
+        
           <div class="row justify-content-center about-container py-lg-32 py-20">
             <div class="col-lg-6 col-md-11 col-xs-12 content order-lg-1 order-2">
               <h4 className="h3">

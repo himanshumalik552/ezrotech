@@ -36,9 +36,8 @@ function App() {
         <Route path="/services" component={Services} />
         <Route path="/footer" component={FooterCommon} />
       </Switch>
-
-      <FooterCommon />
       <MobileFooter/>
+      <FooterCommon />  
       <WhatsApp />
     </Router>
 

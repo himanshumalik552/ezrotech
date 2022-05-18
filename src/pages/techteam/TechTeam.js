@@ -19,10 +19,10 @@ const TechTeam = () => {
       <div className="row flex-column align-items-center text-align-center text-color-white ">
         <div className="col-lg-5 col-md-10 col-xs-12   ">
       
-          <h3 className="h2  py-8">
+          <h3 className="h2  py-8 wow animate__fadeInUp  "data-wow-delay="0.2s">
           Our Teams
           </h3>
-          <p className="p  py-12">
+          <p className="p  py-12 wow animate__fadeInUp  "data-wow-delay="0.4s">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id pharetra ex. Mauris fringilla et tellus ac
             porttitor.
           </p>
