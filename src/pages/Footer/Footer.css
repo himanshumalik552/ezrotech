@@ -2,8 +2,20 @@
 .footer{
   box-shadow: rgba(0, 0, 0, 0.50) 0px 10px 20px;
   border-radius: 10px;
-  
+  display: none;
 
+}
+.mobile_footer
+{
+  display: block;
+}
+@media (min-width: 375px) {
+  .mobile_footer{
+    display: none;
+  }
+ .footer{
+  display: block;
+ }
 }
 
   /* Style the Un-order list by setting its list-style to none */

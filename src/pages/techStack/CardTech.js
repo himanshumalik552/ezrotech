@@ -4,7 +4,7 @@ const CardTach = (props) => {
   let aboutURL = "";
   return (
     <>
-      <div className="card">
+      <div className="card ">
         <div className="content">
           <div className="imgBx">
             <img src={props.image} alt={props.techName} />
