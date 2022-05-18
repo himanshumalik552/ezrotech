@@ -15,15 +15,15 @@ const Home = () => {
       <div className="bg_home bg2_home"></div>
       <div className="bg_home bg3_home"></div>
 
-      <section className="  wapper py-lg-72 py-32  ">
+      <section className="  wapper py-lg-48 py-32  ">
         <div className=" border-radius-10 mx-auto text-color-white ">
-          <div className="row py-32 flex-column justify-content-center align-items-center  ">
-            <div className="col-lg-8 col-md-11 col-xs-12 text-align-center py-4 wow slideInRight  ">
-              <h2 className=" h1 heading pt-64  ">
+          <div className="row py-32 flex-column justify-content-center align-items-center  wow animate__fadeInUp ">
+            <div className="col-lg-8 col-md-11 col-xs-12 text-align-center py-4   ">
+              <h2 className=" h1 heading pt-64 wow animate__fadeInUp   "data-wow-delay="0.2s">
                 Your Business in a single Web Development
               </h2>
             </div>
-            <div className=" col-lg-6 col-md-9 col-xs-11  text-align-center py-lg-64 py-48 wow slideInLeft">
+            <div className=" col-lg-6 col-md-9 col-xs-11  text-align-center py-lg-64 py-48  wow animate__fadeInUp "data-wow-delay="0.4s">
               <p className="p py-20 font-weight-300">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Pellentesque at erat sed erat posuere elementum eget id neque
@@ -31,7 +31,7 @@ const Home = () => {
                 Pellentesque at erat sed erat posuere elementum eget id neque
               </p>
             </div>
-            <div className="py-32 text-align-center wow slideInRight ">
+            <div className="py-32 text-align-center  wow animate__fadeInUp  "data-wow-delay="0.8s">
               <Link
                 to={"./about"}
                 className="btn_primary_about py-18 px-48 border"
@@ -46,13 +46,13 @@ const Home = () => {
       <section className="wrapper  py-lg-72 py-md-48 py-20 text-color-white ">
         <div className="container-xxl py-lg-0 py-16 mx-auto">
           <div className="row flex-column-reverse py-lg-32 py-md-20 flex-lg-row ">
-            <div className="col-lg-6 col-md-12 col-xs-12 py-20 pl-lg-72 my-0 display-flex justify-content-center flex-column wow slideInLeft">
+            <div className="col-lg-6 col-md-12 col-xs-12 py-20 pl-lg-72 my-0 display-flex justify-content-center flex-column ">
               <div className="display-flex flex-column ">
                 <div className="col-lg-9 col-md-11 col-xs-12 ">
                   <div>
                     <h3 className="  h2  py-16 ">We evolve with the times</h3>
                   </div>
-                  <div className="wow animate__fadeInLeft">
+                  <div className="">
                     <p className="p  ">
                       We explore emerging technologies to create amazing
                       experiences for users and business
@@ -74,7 +74,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 col-md-12 col-xs-12 display-flex wow slideInRight">
+            <div className="col-lg-6 col-md-12 col-xs-12 display-flex ">
               <div className="pl-lg-100">
                 <img
                   alt="section 2"
@@ -91,7 +91,7 @@ const Home = () => {
       <section className="wrapper  py-lg-72 py-md-48 py-20 text-color-white">
         <div className="container-xxl py-lg-0 py-16 mx-auto">
           <div className="row   ">
-            <div className="col-lg-6 col-md-12 col-xs-12 py-32 display-flex  wow slideInLeft ">
+            <div className="col-lg-6 col-md-12 col-xs-12 py-32 display-flex   ">
               <div className="pl-lg-40">
                 <img
                   alt="innovation"
@@ -101,11 +101,11 @@ const Home = () => {
                 />
               </div>
             </div>
-            <div className="col-lg-6 col-md-12 col-xs-12 py-20 my-0 display-flex justify-content-center flex-column  wow animate__fadeInRight">
+            <div className="col-lg-6 col-md-12 col-xs-12 py-20 my-0 display-flex justify-content-center flex-column  animate__fadeOutDownBig">
               <div className="display-flex flex-column pl-lg-72 ">
                 <div className="col-lg-9 col-md-11 col-xs-12 ">
                   <h3 className="  h2  py-10">Beyond the tech</h3>
-                  <p className="p  py-20 wow animate__fadeInLeft ">
+                  <p className="p  py-20  ">
                     At the core of our company is the drive to explore, to
                     venture into unknown territory and create something of
                     value. We’re eager to grow, to forge lifelong partnerships
