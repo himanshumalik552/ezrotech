@@ -19,33 +19,35 @@ const AboutUs = () => {
       <div className="bg_about bg3_about"></div>
       <section id="about" className="wrapper py-lg-72 py-48">
         <div className="container-xxl mx-auto">
-          <header className="section-header row py-20 flex-column justify-content-center align-items-center text-align-center text-color-white">
-            <div className="col-lg-8 col-xs-12">
+          <header className="section-header row py-lg-48 py-20 flex-column justify-content-center align-items-center text-align-center text-color-white">
+            <div className="col-lg-7 col-xs-12">
               <h3 className="h2  wow animate__fadeInUp  "data-wow-delay="0.2s"> About Us</h3>
               <p className="py-20 wow animate__fadeInUp  "data-wow-delay="0.4s">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
             </div>
           </header>
-          <div className=" wow animate__fadeInUp  "data-wow-delay="0.8s"> 
+          <div className=" wow animate__fadeInUp py-32  "data-wow-delay="0.8s"> 
           <CountUpComponent  />
           </div>
         
           <div class="row justify-content-center about-container py-lg-32 py-20">
             <div class="col-lg-6 col-md-11 col-xs-12 content order-lg-1 order-2">
-              <h4 className="h3">
+              <h4 className="h3  wow fadeInUp"  data-wow-delay="0.2s">
                 Voluptatem dignissimos provident quasi corporis voluptates sit
                 assumenda.
               </h4>
-              <p className="p py-16">
+              <p className="p py-16 wow fadeInUp"  data-wow-delay="0.4s">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
                 nisi ut aliquip ex ea commodo consequat.
               </p>
 
-              <div class="icon-box wow fadeInUp py-16">
+              <div class="icon-box wow fadeInUp py-16"  data-wow-delay="0.6s">
                 <div class="icon">
                   <i class="fa fa-shopping-bag"></i>
                 </div>
@@ -56,7 +58,7 @@ const AboutUs = () => {
                 </p>
               </div>
 
-              <div class="icon-box wow fadeInUp py-16" data-wow-delay="0.2s">
+              <div class="icon-box wow fadeInUp py-16" data-wow-delay="0.8s">
                 <div class="icon">
                   <i class="fa fa-photo"></i>
                 </div>
@@ -66,8 +68,7 @@ const AboutUs = () => {
                   qui officia deserunt mollit anim id est laborum
                 </p>
               </div>
-
-              <div class="icon-box wow fadeInUp py-16" data-wow-delay="0.4s">
+              <div class="icon-box wow fadeInUp py-16" data-wow-delay="0.9s">
                 <div class="icon">
                   <i class="fa fa-bar-chart"></i>
                 </div>
@@ -79,7 +80,7 @@ const AboutUs = () => {
               </div>
             </div>
 
-            <div class="col-lg-6 col-md-11 col-xs-12 background order-lg-2 order-1 py-xs-20 px-lg-20 px-0 wow fadeInUp">
+            <div class="col-lg-6 col-md-11 col-xs-12 background order-lg-2 order-1 py-xs-20 px-lg-20 px-0wow fadeInUp"  data-wow-delay="0.2s">
               <img src={About3} class="width-100" alt="" />
             </div>
           </div>

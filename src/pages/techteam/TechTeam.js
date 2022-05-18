@@ -32,7 +32,7 @@ const TechTeam = () => {
         {TeamData.map((item ,index)=>{
           return(
 
-            <div key={index} className="col-lg-4 col-md-8 col-xs-12  px-lg-20 py-lg-24 px-md-48 py-md-36 px-16 py-16">
+            <div key={index} className="col-lg-4 col-md-8 col-xs-12  px-lg-20 py-lg-24 px-md-48 py-md-36 px-16 py-16 wow fadeInLeft"  data-wow-delay={item.delay}>
               <div className=" cardteam px-lg-28 py-lg-24 px-18 py-16  border-radius-10">
               <div className="display-flex justify-content-center py-8  border-bottom mx-lg-16">
                 <div className="  ">
