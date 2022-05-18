@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 
 export const MobileFooter = () => {
 
@@ -17,14 +16,38 @@ export const MobileFooter = () => {
     bottom: "0",
     width: "100%",
   };
+
+  const data = [{
+    className:"facebook",
+    link:facebook,
+    icon:"fa fa-facebook fa-2x",
+  },
+  {
+    className:"twitter",
+    link:twitter,
+    icon:"fa fa-twitter fa-2x",
+  },{
+    className:"instagram",
+    link:instagram,
+    icon:"fa fa-instagram fa-2x",
+  },{
+    className:"google",
+    link:googleplus,
+    icon:"fa fa-google fa-2x",
+  },{
+    className:"whatsapp",
+    link:whatsapp,
+    icon:"fa fa-whatsapp fa-2x",
+  },
+]
   return (
   <div className='mobile_footer' style={Style} > 
+  
   <ul  className=' row justify-content-center  '>
-    <li className="facebook"><Link href="https://www.facebook.com"><i className="fa fa-facebook fa-2x" aria-hidden="true"></i></Link></li>
-    <li className="twitter"><Link href={twitter}><i className="fa fa-twitter fa-2x" aria-hidden="true"></i></Link></li>
-    <li className="instagram"><Link href={instagram}><i className="fa fa-instagram fa-2x" aria-hidden="true"></i></Link></li>
-    <li className="google"><Link href={googleplus}><i className="fa fa-google fa-2x" aria-hidden="true"></i></Link></li>
-    <li className="whatsapp"><Link href={whatsapp}><i className="fa fa-whatsapp fa-2x" aria-hidden="true"></i></Link></li>
+    {data.map((item)=>     
+      <li key={item.link} className={item.className}><a  rel="noreferrer"  target="_blank" href={item.link}><span><i className={item.icon}  aria-hidden="true"></i></span></a></li>      
+    )
+    }
   </ul>
 
 </div>

@@ -5,6 +5,7 @@ import About1 from "../images/about/about-img.svg";
 import About2 from "../images/about/about-extra-1.svg";
 import About3 from "../images/about/about-extra-2.svg";
 
+
 const AboutUs = () => {
   useEffect(() => {
     new WOW.WOW({
@@ -14,6 +15,7 @@ const AboutUs = () => {
   }, [])
   return (
     <div>
+  
       <div className="bg_about "></div>
       <div className="bg_about bg2_about"></div>
       <div className="bg_about bg3_about"></div>
