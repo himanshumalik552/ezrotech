@@ -3,18 +3,18 @@ import Project from './icon/project.gif';
 import Client from './icon/client.gif';
 
 const CountUpData = [{
-    icon:Client,
+    icon:Happy,
     counter:"40",
-    name:"Client",
+    name:"Finished Project",
 },
 {
     icon:Project,
     counter:"10",
-    name:"Project",
+    name:"On Going",
 
 },
 {
-    icon:Happy,
+    icon:Client,
     counter:"20",
     name:"Happy Client",
 

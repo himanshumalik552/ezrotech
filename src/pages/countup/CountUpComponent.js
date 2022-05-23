@@ -32,7 +32,7 @@ export default function CountUpComponent() {
                   <h2  className="h1" fontWeight={700}>
                     <CountUp end={item.counter} />+
                   </h2>
-                  <h3 className="h3" >{item.name}</h3>
+                  <h3 className="h4" >{item.name}</h3>
                 </Grid>
               </Grid>
             </Grid>
