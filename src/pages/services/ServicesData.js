@@ -1,5 +1,8 @@
 import WebDevelopment from '../../images/service/webdevelopment.png'
 import WebDesignb from '../../images/service/webdesignb.png'
+import Andorid from '../../images/service/android.png'
+import UX from '../../images/service/ux.png'
+
 
 const ServiceData = [
     {
@@ -21,13 +24,13 @@ const ServiceData = [
     //     delay:"0.6s"
     // },
     {
-        icon: "",
+        icon: Andorid,
         name: "Mobile App Development ",
         description: "Our specialized development teams Experience A World-Class Mobile App Development Service Build Affordable, Easy-to-use & Feature-Rich Mobile Apps For Your Business.",
         delay:"0.6s"
     }, 
     {
-        icon: "",
+        icon: UX,
         name: "UI/UX and Games ",
         description: "If you are looking for expert game developers and UI/UX Designing in the town, then your search ends with us.",
         delay:"0.8s"
