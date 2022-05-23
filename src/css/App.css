@@ -85,7 +85,7 @@ box-sizing: border-box;
 }
 
 .service_cards {
-  opacity: .7;
+ 
   border-radius: 4px;
   background: transparent;
   box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
