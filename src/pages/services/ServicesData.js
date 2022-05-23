@@ -1,7 +1,7 @@
-import WebDevelopment from '../../images/service/webdevelopment.png'
-import WebDesignb from '../../images/service/webdesignb.png'
-import Andorid from '../../images/service/android.png'
-import UX from '../../images/service/ux.png'
+import WebDevelopment from '../../images/services/web-development.png'
+import WebDesignb from '../../images/services/web-design.png'
+import Andorid from '../../images/services/android.png'
+import UX from '../../images/services/ux.png'
 
 
 const ServiceData = [
