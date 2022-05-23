@@ -53,8 +53,8 @@ const FooterCommon = () => {
             
 <div className="wrapper_footer">
   <ul  className=' row justify-content-center  '>
-  {data.map((item)=>     
-      <li key={item.link} className={item.className}><a  rel="noreferrer"  target="_blank" href={item.link}><span><i className={item.icon}  aria-hidden="true"></i></span></a></li>      
+  {data.map((item, index)=>     
+      <li key={index} className={item.className}><a  rel="noreferrer"  target="_blank" href={item.link}><span><i className={item.icon}  aria-hidden="true"></i></span></a></li>      
     )
     }
   </ul>
