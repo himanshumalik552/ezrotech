@@ -14,16 +14,18 @@ import MenuIcon from '@mui/icons-material/Menu';
 const useStyles = makeStyles(()=>({
     link:{
         textDecoration:"none",
-        color: "blue",
+        color: "ThreeDFace",
         fontSize: "20px",
-        backgroundColor:"transparent"
+        
     },
     icon:{
-        color: "white"
+        color: "ThreeDFace"
     },
     list:{
      width:"200px"
-  }
+  },
+  '& .MuiPaper-root' : {
+  backgroundColor:"blue"}
 }));
 
 function DrawerComponent() {
@@ -35,9 +37,9 @@ function DrawerComponent() {
         open={openDrawer}
         onClose={() => setOpenDrawer(false)}
         
-        
+        style={{backgroundColor:"wh"}} 
       >
-        <List  className={classes.list} sx={{backgroundColor:"transparent"}}
+        <List  className={classes.list}  
         >
         <Link to="/" className="py-4 px-4 ">
             <img alt='logo' src="https://grorapidassets.s3.amazonaws.com/images/webinartemplate/job/logo.png"

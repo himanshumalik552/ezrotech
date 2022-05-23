@@ -25,8 +25,8 @@ const Services = () => {
               Our service
             </h2>
             <p className="p service_para py-lg-32 py-md-20 py-xs-12 text-color-white  wow animate__fadeInUp "data-wow-delay="0.6s">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, accusantium dolorem id iusto aperiam deleniti sequi obcaecati provident. Molestias illum sequi repellendus consequatur eveniet accusamus atque fugiat, asperiores quasi fugit.
-            </p>
+            We offer a wide range of web development & digital marketing services. Our services include web design, web development, mobile app development, UI Designing, UX Designing, Games & more.
+             </p>
           </div>
 
         </div>
