@@ -14,12 +14,12 @@ import MenuIcon from '@mui/icons-material/Menu';
 const useStyles = makeStyles(()=>({
     link:{
         textDecoration:"none",
-        color: "ThreeDFace",
+        color: "blue",
         fontSize: "20px",
         
     },
     icon:{
-        color: "ThreeDFace"
+        color: "white"
     },
     list:{
      width:"200px"
