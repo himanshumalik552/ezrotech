@@ -1,6 +1,5 @@
 import React, {useEffect} from "react";
 import WOW from "wowjs";
-import TechStack from '../techStack/TechStack'
 import OurMissionData from "./OurMissionData";
 
 const OurMission = () => {

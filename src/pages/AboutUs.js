@@ -1,9 +1,7 @@
 import React,{useEffect} from "react";
 import WOW from "wowjs";
 import CountUpComponent from "./countup/CountUpComponent";
-// import About1 from "../images/about/about-img.svg";
-// import About2 from "../images/about/about-extra-1.svg";
-import About3 from "../images/about/about-extra-2.svg";
+
 
 
 const AboutUs = () => {
