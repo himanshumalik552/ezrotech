@@ -8,7 +8,7 @@ export const MobileFooter = () => {
   let whatsapp  ="";
   let twitter  ="";
   const Style = {
-    backgroundColor:"ThreeDFace",
+    backgroundColor:"#5f5f82",
     textAlign: "center",
     padding: "10px",
     position: "fixed",

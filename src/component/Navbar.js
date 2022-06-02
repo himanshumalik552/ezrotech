@@ -41,7 +41,7 @@ function Navbar() {
   return (
     <>
   
-    <AppBar   position="sticky" style={{backgroundColor:"ThreeDFace"}}  >
+    <AppBar   position="sticky" style={{backgroundColor:"GrayText"}}  >
 
       <CssBaseline />
       
@@ -64,6 +64,9 @@ function Navbar() {
             </Link>
             <Link to="/techteam" className={classes.link}>
               OurTeam
+            </Link>
+            <Link to="/contactus" className={classes.link}>
+              ContactUs
             </Link>
             <Link to="/about" className={classes.link}>
               AboutUs

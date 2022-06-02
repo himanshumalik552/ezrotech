@@ -24,7 +24,7 @@ const AboutUs = () => {
           <header className="section-header row py-lg-48 py-20 flex-column justify-content-center align-items-center text-align-center text-color-white">
             <div className="col-lg-7 col-md-9 col-xs-12">
               <h3 className="h2  wow animate__fadeInUp  "data-wow-delay="0.2s"> About Us</h3>
-              <p className="py-20 wow animate__fadeInUp  "data-wow-delay="0.4s">
+              <p className="py-28 wow animate__fadeInUp  "data-wow-delay="0.4s">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -36,57 +36,6 @@ const AboutUs = () => {
           <CountUpComponent  />
           </div>
         
-          <div class="row justify-content-center about-container py-lg-32 py-20">
-            <div class="col-lg-6 col-md-11 col-xs-12 content order-lg-1 order-2">
-              <h4 className="h3  wow fadeInUp"  data-wow-delay="0.2s">
-                Voluptatem dignissimos provident quasi corporis voluptates sit
-                assumenda.
-              </h4>
-              <p className="p py-16 wow fadeInUp"  data-wow-delay="0.4s">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-
-              <div class="icon-box wow fadeInUp py-16"  data-wow-delay="0.6s">
-                <div class="icon">
-                  <i class="fa fa-shopping-bag"></i>
-                </div>
-                <h4 class="title">Eiusmod Tempor</h4>
-                <p class="description">
-                  Et harum quidem rerum facilis est et expedita distinctio. Nam
-                  libero tempore, cum soluta nobis est eligendi
-                </p>
-              </div>
-
-              <div class="icon-box wow fadeInUp py-16" data-wow-delay="0.8s">
-                <div class="icon">
-                  <i class="fa fa-photo"></i>
-                </div>
-                <h4 class="title">Magni Dolores</h4>
-                <p class="description">
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum
-                </p>
-              </div>
-              <div class="icon-box wow fadeInUp py-16" data-wow-delay="0.9s">
-                <div class="icon">
-                  <i class="fa fa-bar-chart"></i>
-                </div>
-                <h4 class="title">Dolor Sitema</h4>
-                <p class="description">
-                  Minim veniam, quis nostrud exercitation ullamco laboris nisi
-                  ut aliquip ex ea commodo consequat tarad limino ata
-                </p>
-              </div>
-            </div>
-
-            <div class="col-lg-6 col-md-11 col-xs-12 background order-lg-2 order-1 py-xs-20 px-lg-20 px-0wow fadeInUp"  data-wow-delay="0.2s">
-              <img src={About3} class="width-100" alt="" />
-            </div>
-          </div>
-
         
         </div>
       </section>

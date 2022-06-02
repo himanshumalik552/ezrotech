@@ -12,7 +12,7 @@ box-sizing: border-box;
 /* Home page */
 .bg_home {
   animation:slide 3s ease-in-out infinite alternate;
-  background: linear-gradient(-60deg,  #09f 50%, rgb(184, 231, 11) 50%);
+  background: linear-gradient(-60deg, #09f 50%, rgb(158 159 54 / 60%) 50%);
   bottom:0;
   left:-50%;
   opacity:.5;
@@ -237,6 +237,29 @@ box-sizing: border-box;
 .bg3_about {
   animation-duration:3s;
 }
+
+
+.bg_contactus {
+  animation:slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, rgb(82 74 118) 50%, rgb(106 101 121) 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2_contactus {
+  animation-direction:alternate-reverse;
+  animation-duration:4s;
+}
+
+.bg3_contactus {
+  animation-duration:3s;
+}
+
 
 @keyframes slide {
   0% {

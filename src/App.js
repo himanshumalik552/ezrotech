@@ -15,6 +15,7 @@ import FooterCommon from "./pages/Footer/FooterCommon";
 import WhatsApp from "./pages/WhatsApp";
 import { Switch, Route } from "react-router-dom";
 import { MobileFooter } from "./pages/Footer/MobileFooter";
+import ContactUs from "./pages/contactus/ContactUs";
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
+        <Route path="/contactus" component={ContactUs} />
         <Route path="/techteam" component={TechTeam} />
         <Route path="/services" component={Services} />
         <Route path="/footer" component={FooterCommon} />
