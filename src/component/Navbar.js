@@ -65,9 +65,9 @@ function Navbar() {
             <Link to="/techteam" className={classes.link}>
               OurTeam
             </Link>
-            <Link to="/contactus" className={classes.link}>
+            {/* <Link to="/contactus" className={classes.link}>
               ContactUs
-            </Link>
+            </Link> */}
             <Link to="/about" className={classes.link}>
               AboutUs
             </Link>
