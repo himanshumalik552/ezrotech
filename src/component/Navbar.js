@@ -1,5 +1,6 @@
 import React from "react";
 import { makeStyles } from '@mui/styles';
+import logo from '../images/ezrotechcrop.png'
 import {
   AppBar,
   Toolbar,
@@ -19,6 +20,8 @@ const useStyles = makeStyles(() => ({
   logo: {
     flexGrow: "1",
     cursor: "pointer",
+    width: "100px",
+    
   },
 
   link: {
@@ -49,14 +52,14 @@ function Navbar() {
         
         <Typography variant="h4" className={classes.logo}>
         <Link to="/" className="py-4 px-4 ">
-            <img alt='logo' src="https://grorapidassets.s3.amazonaws.com/images/webinartemplate/job/logo.png"
-              className="width-15" /></Link>
+            <img alt='logo' src={logo}
+              className="logo" style={{width: "200px",height:"50px"}} /></Link>
         </Typography>
         {isMobile ? (
           <DrawerComponent />
         ) : (
           <div className={classes.navlinks}>
-            <Link to="/" className={classes.link}>
+            <Link  to="/" className={classes.link}>
               Home
             </Link>
             <Link to="/services" className={classes.link}>

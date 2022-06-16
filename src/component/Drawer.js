@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { makeStyles } from '@mui/styles';
+import logo from '../images/ezrotechcrop.png'
 import {
    Divider,
   Drawer,
@@ -42,7 +43,7 @@ function DrawerComponent() {
         <List  className={classes.list}  
         >
         <Link to="/" className="py-4 px-4 ">
-            <img alt='logo' src="https://grorapidassets.s3.amazonaws.com/images/webinartemplate/job/logo.png"
+            <img alt='logo' src={logo}
               className="width-15" /></Link>
         <ListItem onClick={() => setOpenDrawer(false)}>
             <ListItemText>
