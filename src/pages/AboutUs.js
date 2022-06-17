@@ -53,9 +53,7 @@ const AboutUs = () => {
                   >
                     <h3 className="  h2  py-16 ">What we follow to make it fast & awesome</h3>
                   </div>
-                  <div className="">
-
-                    
+                  <div className="">                 
                     <ul typeof="cricle" className="pl-20">
                       <li  className="p   wow animate__fadeInUp  "
                       data-wow-delay="0.5s">
