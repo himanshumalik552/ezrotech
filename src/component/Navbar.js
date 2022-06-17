@@ -53,7 +53,7 @@ function Navbar() {
         <Typography variant="h4" className={classes.logo}>
         <Link to="/" className="py-4 px-4 ">
             <img alt='logo' src={logo}
-              className="logo" style={{width: "200px",height:"50px"}} /></Link>
+              className="logo" style={{width: "180px",height:"50px"}} /></Link>
         </Typography>
         {isMobile ? (
           <DrawerComponent />

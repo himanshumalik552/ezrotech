@@ -44,7 +44,7 @@ function DrawerComponent() {
         >
         <Link to="/" className="py-4 px-4 ">
             <img alt='logo' src={logo}
-              className="width-15" /></Link>
+              style={{width:"180px"}} /></Link>
         <ListItem onClick={() => setOpenDrawer(false)}>
             <ListItemText>
               <Link to="/" className={classes.link}>Home</Link>
