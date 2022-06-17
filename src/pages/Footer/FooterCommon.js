@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './Footer.css'
+import logo from '../../images/ezrotechcrop.png'
 const FooterCommon = () => {
 
   const googleplus  ="https://myaccount.google.com/profile?pli=1";
@@ -45,7 +46,7 @@ const FooterCommon = () => {
         <div
           className="col-lg-4 col-md-12 col-xs-12 py-20 display-flex justify-content-center">
           <Link to="/" className="py-4 px-4 ">
-            <img alt='logo' src="https://grorapidassets.s3.amazonaws.com/images/webinartemplate/job/logo.png"
+            <img alt='logo' src={logo}
               className="width-15" /></Link>
         </div>
         <div
@@ -69,4 +70,4 @@ const FooterCommon = () => {
   )
 }
 
-export default FooterCommon
+export default FooterCommon;
