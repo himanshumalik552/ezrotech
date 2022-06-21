@@ -1,10 +1,10 @@
 import React from 'react'
 import './navbar.css'
 import { makeStyles } from '@mui/styles';
+
 import { Link } from "react-router-dom";
 import logo from '../../images/ezrotechcrop.png'
 import './index.js'
-import { lineHeight } from '@mui/system';
 
 
 const useStyles = makeStyles(() => ({
@@ -22,9 +22,12 @@ const useStyles = makeStyles(() => ({
   link: {
     textDecoration: "none",
     color: "white",
-    padding: "15px",
-     lineHeight: "20px",
-  
+    fontSize: "16px",
+    marginLeft: "4px",
+    "&:hover": {
+      color: "yellow",
+      borderBottom: "1px solid white",
+    },
   },
 }));
 const Navbar = () => {
