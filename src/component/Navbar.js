@@ -51,9 +51,9 @@ function Navbar() {
       <Toolbar>
         
         <Typography variant="h4" className={classes.logo}>
-        <Link to="/" className="py-4 px-4 ">
+        <Link to="/" className="pt-10 px-4 ">
             <img alt='logo' src={logo}
-              className="logo" style={{width: "180px",height:"50px"}} /></Link>
+              className="logo pt-10" style={{width: "180px",height:"50px"}} /></Link>
         </Typography>
         {isMobile ? (
           <DrawerComponent />
@@ -68,13 +68,12 @@ function Navbar() {
             <Link to="/techteam" className={classes.link}>
               OurTeam
             </Link>
-            {/* <Link to="/contactus" className={classes.link}>
+            <Link to="/contactus" className={classes.link}>
               ContactUs
-            </Link> */}
+            </Link>
             <Link to="/about" className={classes.link}>
               AboutUs
-            </Link>
-           
+            </Link>          
           </div>
         )}
       </Toolbar>
