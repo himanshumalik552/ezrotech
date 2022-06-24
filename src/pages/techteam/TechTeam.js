@@ -11,9 +11,9 @@ const TechTeam = () => {
   }, [])
   return (
     <div> 
-      <div className="bg_techteam"></div>
-      <div className="bg_techteam bg2_techteam"></div>
-      <div className="bg_techteam bg3_techteam"></div>
+      <div class="bg_techteam"></div>
+      <div class="bg_techteam bg2_techteam"></div>
+      <div class="bg_techteam bg3_techteam"></div>
    <section className="wrapper   py-48 ">
     <div className=" py-32 mx-auto">
       <div className="row flex-column align-items-center text-align-center text-color-white ">

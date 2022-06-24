@@ -3,6 +3,7 @@ import WOW from "wowjs";
 import ServiceData from './ServicesData';
 import TechStack from '../techStack/TechStack'
 
+
 const Services = () => {
 
   useEffect(() => {
@@ -29,6 +30,10 @@ const Services = () => {
              </p>
           </div>
 
+        </div>
+
+        <div>
+    
         </div>
         <div className="flex py-20  ">
           {ServiceData.map((service,index) => {

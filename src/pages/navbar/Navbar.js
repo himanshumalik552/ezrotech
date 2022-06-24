@@ -1,7 +1,6 @@
 import React from 'react'
 import './navbar.css'
 import { makeStyles } from '@mui/styles';
-
 import { Link } from "react-router-dom";
 import logo from '../../images/ezrotechcrop.png'
 import './index.js'
@@ -33,17 +32,17 @@ const useStyles = makeStyles(() => ({
 const Navbar = () => {
   const classes = useStyles();
   return (
-<section className="navigation">
-        <div className="nav-container">
-          <div className="brand">
+<section class="navigation">
+        <div class="nav-container">
+          <div class="brand">
           <Link to="/" className="pt-10 px-4 ">
             <img alt='logo' src={logo}
               className="logo pt-10" style={{width: "180px",height:"50px"}} /></Link>
           </div>
           <nav>
-            <div className="nav-mobile">
+            <div class="nav-mobile">
               <a id="navbar-toggle" href="#!"><span></span></a></div>
-            <ul className="nav-list">
+            <ul class="nav-list">
               <li>
               <Link  to="/" className={classes.link}>
               Home
@@ -54,7 +53,7 @@ const Navbar = () => {
               <Link to="/services" className={classes.link}>
               Services
             </Link>
-                {/* <ul className="navbar-dropdown">
+                {/* <ul class="navbar-dropdown">
                   <li>
                     <a href="#!">Sass</a>
                   </li>
@@ -73,7 +72,7 @@ const Navbar = () => {
               </li>
               {/* <li>
                 <a href="#!">Category</a>
-                <ul className="navbar-dropdown">
+                <ul class="navbar-dropdown">
                   <li>
                     <a href="#!">Sass</a>
                   </li>

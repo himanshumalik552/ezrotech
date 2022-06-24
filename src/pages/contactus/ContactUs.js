@@ -1,8 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Grid, TextField, Button, Card, CardContent, Typography } from '@mui/material';
-
+import WOW from "wowjs";
 
 const ContactUs = () => {
+  useEffect(() => {
+    new WOW.WOW({
+      live: false
+    }).init();
+  }, [])
   return (
 <>
     <div className="bg_contactus"></div>

@@ -106,6 +106,7 @@ const TechData = [
         techName: "NestJS",
         delay:"0.8s"
     },
+    
 ]
 
 export default TechData;
