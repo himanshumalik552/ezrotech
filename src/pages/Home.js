@@ -44,7 +44,7 @@ const Home = () => {
             >
               <Link
                 to={"./about"}
-                className="btn_primary_about py-18 px-48 border"
+                className="btn_primary_about py-18 px-48 border "
               >
                 About Us
               </Link>

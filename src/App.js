@@ -5,7 +5,6 @@ import 'animate.css';
 import { BrowserRouter as Router } from "react-router-dom";
 import './css/Framework.css';
 import './css/App.css';
-
 import Navbar from "./pages/navbar/Navbar";
 import Home from "./pages/Home";
 import About from "./pages/AboutUs";
