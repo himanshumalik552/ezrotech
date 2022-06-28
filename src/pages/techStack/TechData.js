@@ -61,19 +61,19 @@ const TechData = [
         id: 8,
         imageUrl: NODEJS,
         techName: "Node JS",
-        delay:"0.8s"
+        delay:"0.2s"
     },
     {
         id: 9,
         imageUrl: PHP,
         techName: "PHP",
-        delay:"0.8s"
+        delay:"0.4s"
     },
     {
         id: 10,
         imageUrl: JAVA,
         techName: "JAVA",
-        delay:"0.8s"
+        delay:"0.6s"
     },
     {
         id: 11,

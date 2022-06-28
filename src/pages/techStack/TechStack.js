@@ -9,21 +9,19 @@ return (
         <div className='container-xxl m-auto'>
         <div className="row justify-content-center">
         <div className="col-lg-6 col-md-10 col-xs-12 content">
-            <h2 className="tech_head h2 text-align-center text-color-white ">
-                Tech Steck
+            <h2 className="tech_head h2 text-align-center text-color-white wow animate__fadeInUp"  data-wow-delay="0.4s">
+            Technologies we use 
             </h2>
-            <p className="tech_para py-16 text-align-center text-color-white ">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus nostrum, commodi nemo laborum ipsa
-                reiciendis quo explicabo labore blanditiis unde dolor numquam consequuntur itaque ullam, similique vel
-                velit? Deleniti, debitis.
+            <p className="tech_para py-16 text-align-center text-color-white wow animate__fadeInUp "  data-wow-delay="0.5s">
+            We've always been at the forefront of technological advancements. We use cutting edge technologies, advanced frameworks and proven methodologies to ensure that our solutions are future-ready and scalable.
             </p>
         </div>
        </div>
         <div className="container_tach">
-           
+            
             {TechData.map((tech,index)=>{
             return(
-            <CardTech key={index} image={tech.imageUrl} techName={tech.techName} />
+            <CardTech key={index} image={tech.imageUrl} techName={tech.techName} delaytime={tech.delay}  />
             )
             })}
         </div>

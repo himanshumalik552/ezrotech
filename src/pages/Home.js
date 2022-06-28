@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 import WOW from "wowjs";
 import { Link } from "react-router-dom";
 import OurMission from "./ourmission/OurMission";
+import Services from "./services/Services";
+import ServiceData from "./services/ServicesData";
 const Home = () => {
   useEffect(() => {
     new WOW.WOW({
@@ -56,6 +58,46 @@ const Home = () => {
         <OurMission/>
       </section>
       {/* Sectoin 2 */}
+      <section className="wrapper  font_family_development bg_color py-32 ">
+     
+      <div className="container-xxl py-32 mx-auto">
+        <div className="row justify-content-center">
+          <div className="title col-lg-7 col-md-10 col-xs-12 text-align-center ">
+            <h2 className="service_heading h2 py-8 text-color-white wow animate__fadeInUp "data-wow-delay="0.6s">
+              Our service
+            </h2>
+            <p className="p service_para py-lg-32 py-md-20 py-xs-12 text-color-white  wow animate__fadeInUp "data-wow-delay="0.6s">
+            We offer a wide range of web development & digital marketing services. Our services include web design, web development, mobile app development, UI Designing, UX Designing, Games & more.
+             </p>
+          </div>
+
+        </div>
+
+        <div>
+    
+        </div>
+        <div className="flex py-20  ">
+          {ServiceData.map((service,index) => {
+            return (
+              <div key={index} className=" service_cards background-color-white px-lg-28 py-lg-24 px-18 py-16  border-radius-10 wow fadeInLeft"  data-wow-delay={service.delay}>
+                <div className=" py-16">
+                  <img src={service.icon}
+                    alt={service.name} className="icon_size_service" />
+                  <h4 className="h4 font-weight-700  text-color-development_color_4 pt-16">
+                    {service.name}
+                  </h4>
+                  <p className="p font-weight-400 text-color-development_color_3 py-10 ">
+                    {service.description}
+                  </p>
+                </div>
+              </div>
+
+            )
+          })}
+        </div>
+      </div>
+    
+    </section>
       <section className="wrapper  py-lg-72 py-md-48 py-20 text-color-white ">
         <div className="container-xxl py-lg-0 py-16 mx-auto">
           <div className="row flex-column-reverse py-lg-32 py-md-20 flex-lg-row ">
@@ -116,44 +158,6 @@ const Home = () => {
         </div>
       </section>
       {/* Section-3 */}
-      <section className="wrapper  py-lg-72 py-md-48 py-20 text-color-white">
-        <div className="container-xxl py-lg-0 py-16 mx-auto">
-          <div className="row   ">
-            <div className="col-lg-6 col-md-12 col-xs-12 py-32 display-flex   ">
-              <div className="pl-lg-40">
-                <img
-                  alt="innovation"
-                  src="https://grorapidassets.s3.amazonaws.com/images/webinartemplate/V2/Innovation.png"
-                  id="icvbt"
-                  className="width-100"
-                />
-              </div>
-            </div>
-            <div className="col-lg-6 col-md-12 col-xs-12 py-20 my-0 display-flex justify-content-center flex-column  animate__fadeOutDownBig">
-              <div className="display-flex flex-column pl-lg-72 ">
-                <div className="col-lg-9 col-md-11 col-xs-12 ">
-                  <h3 className="  h2  py-10">Beyond the tech</h3>
-                  <p className="p  py-20  ">
-                    At the core of our company is the drive to explore, to
-                    venture into unknown territory and create something of
-                    value. We’re eager to grow, to forge lifelong partnerships
-                    with businesses and people, and we’re willing to give it our
-                    very best to get
-                  </p>
-                </div>
-                <div className="py-16 row ">
-                  <a
-                    href={aboutURL}
-                    className=" btn_primary  px-32  border-radius-4 py-12 fontWeight-500 border "
-                  >
-                    Get Started
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
     </>
   );
 };

@@ -7,6 +7,7 @@ import {
   CardContent,
   Typography,
   Snackbar,
+  Alert,
 } from "@mui/material";
 import WOW from "wowjs";
 import emailjs from "emailjs-com";
@@ -153,6 +154,8 @@ const ContactUs = () => {
                             type="number"
                             id="phone"
                             name="phone"
+                            min="10" 
+                            max="10"
                             value={phone}
                             label="Phone"
                             variant="outlined"
@@ -177,7 +180,7 @@ const ContactUs = () => {
                         </Grid>
                         <Grid item xs={12} className="py-8">
                           <Button
-                          
+                            // disabled={true}
                             type="submit"
                             onClick={sendEmail}
                             variant="contained"
@@ -193,7 +196,9 @@ const ContactUs = () => {
                         autoHideDuration={3000}
                         onClose={handleClose}
                         message="Mail sent"
+                        
                       />
+               
                     </form>
                   </CardContent>
                 </Card>

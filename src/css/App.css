@@ -7,6 +7,12 @@
 box-sizing: border-box;
 
 }
+
+/* colors */
+.white{
+  color: white; 
+
+}
 /* navbar */
 
 /* Home page */
@@ -142,6 +148,31 @@ box-sizing: border-box;
     transform:translateX(25%);
   }
 }
+
+.listul {
+  list-style: none;
+color: white;
+margin-top: 10px;
+font-size: 18px;
+}
+.listul li{
+  padding-top: 16px;
+}
+.listul li::before {
+  content: "";
+  height: 18px;
+  width: 10px;
+  border: 3px solid #eff1f3;
+  border-radius: 50px;
+  background-size: contain;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  position: relative;
+  top: 0.1rem;
+  margin-right: 0.5rem;
+}
+
 /* About Us */
 
 

@@ -48,7 +48,12 @@ const Navbar = () => {
               Home
             </Link>
               </li>
-        
+              <li>
+              <Link to="/about" className={classes.link}>
+              AboutUs
+            </Link>
+           
+              </li>
               <li>
               <Link to="/services" className={classes.link}>
               Services
@@ -65,11 +70,11 @@ const Navbar = () => {
                   </li>
                 </ul> */}
               </li>
-              <li>
+              {/* <li>
               <Link to="/techteam" className={classes.link}>
               OurTeam
             </Link>
-              </li>
+              </li> */}
               {/* <li>
                 <a href="#!">Category</a>
                 <ul class="navbar-dropdown">
@@ -89,12 +94,7 @@ const Navbar = () => {
               ContactUs
             </Link>
               </li>
-              <li>
-              <Link to="/about" className={classes.link}>
-              AboutUs
-            </Link>
            
-              </li>
             </ul>
           </nav>
         </div>
