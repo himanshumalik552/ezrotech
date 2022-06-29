@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import WOW from "wowjs";
 import { Link } from "react-router-dom";
 import OurMission from "./ourmission/OurMission";
-import Services from "./services/Services";
 import ServiceData from "./services/ServicesData";
 const Home = () => {
   useEffect(() => {

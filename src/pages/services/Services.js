@@ -1,7 +1,5 @@
 import React, { useEffect } from "react";
 import WOW from "wowjs";
-import ServiceData from "./ServicesData";
-import TechStack from "../techStack/TechStack";
 import UiUx from "../../images/services/UiUx.svg";
 
 const Services = () => {
@@ -101,7 +99,7 @@ const Services = () => {
             </div>
           </div>
           {/* WebDevelopment */}
-          <div className="row py-32 justify-content-center">
+          {/* <div className="row py-32 justify-content-center">
           <div
               className="col-lg-6 col-md-10 col-xs-12 px-lg-32 px-xs-10 py-lg-32 py-xs-10 wow animate__fadeInUp row align-items-center justify-content-center "
               data-wow-delay="0.6s"
@@ -163,7 +161,7 @@ const Services = () => {
               </div>
             </div>
            
-          </div>
+          </div> */}
         </div>
       </section>
     </>
