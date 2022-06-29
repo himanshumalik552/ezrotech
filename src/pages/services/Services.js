@@ -16,7 +16,7 @@ const Services = () => {
       <div className="bg_service bg3_service"></div>
       <section className="wrapper  font_family_development bg_color py-32 ">
         <div className="container-xxl py-32 mx-auto">
-          <div className="display-flex justify-content-center ">
+          <div className="row justify-content-center ">
             <div className="title col-lg-7 col-md-10 col-xs-12 text-align-center ">
               <h2
                 className="service_heading h2 py-8 text-color-white wow animate__fadeInUp "
@@ -35,7 +35,7 @@ const Services = () => {
               </p>
             </div>
           </div>
-    {/* UX design */}
+          {/* UX design */}
           <div className="row py-32 justify-content-center">
             <div className="col-lg-6 col-md-10 col-xs-12 px-lg-32 px-xs-10 py-lg-32 py-xs-10">
               <div>
