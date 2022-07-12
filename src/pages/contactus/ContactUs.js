@@ -63,28 +63,21 @@ const ContactUs = () => {
       <div className="bg_contactus bg2_contactus"></div>
       <div className="bg_contactus bg3_contactus"></div>
 
-      <section className="wrapper  font_family_development bg_color py-32 ">
+      <section className="wrapper  font_family_development bg_color  ">
         <div className="container-xxl py-32 mx-auto">
           <div className="row justify-content-center">
             <div className="title col-lg-7 col-md-10 col-xs-12 text-align-center ">
               <h2
-                className="service_heading h2 py-8 text-color-white wow animate__fadeInUp "
+                className="service_heading h2 pb-24 text-color-white wow animate__fadeInUp "
                 data-wow-delay="0.6s"
               >
                 ContactUs
               </h2>
-              <p
-                className="p service_para py-lg-32 py-md-20 py-xs-12 text-color-white  wow animate__fadeInUp "
-                data-wow-delay="0.6s"
-              >
-                We offer a wide range of web development & digital marketing
-                services. Our services include web design, web development,
-                mobile app development, UI Designing, UX Designing, Games &
-                more.
-              </p>
+           
             </div>
           </div>
-          <div className="row App">
+          <div className="row App wow animate__fadeInUp "
+                data-wow-delay="0.6s">
             <div className="col-lg-6 col-xs-12">
               <Grid style={{}}>
                 <Card
