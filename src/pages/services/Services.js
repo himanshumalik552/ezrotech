@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 import WOW from "wowjs";
 import UiUx from "../../images/services/UiUx.svg";
 import Mobile from '../../images/services/mobiledevelopment.svg'
+import WebDevelopment from '../../images/services/webdevelopment.svg'
+
 const Services = () => {
   useEffect(() => {
     new WOW.WOW({
@@ -158,6 +160,62 @@ const Services = () => {
                     </li>
                   </ul>
                 </div>
+              </div>
+            </div>
+          </div>
+          {/* Web Development */}
+          <div className="row py-32 justify-content-center">
+            <div className="col-lg-6 col-md-10 col-xs-12 px-lg-32 px-xs-10 py-lg-32 py-xs-10">
+              <div>
+                <h3
+                  className="h3 white  wow animate__fadeInUp"
+                  data-wow-delay="0.6s"
+                >
+                 Web Development
+                </h3>
+                <p
+                  className="p white py-24  wow animate__fadeInUp"
+                  data-wow-delay="0.8s"
+                >
+                  Cross-browser and cross-device compatibility driven by mobile responsiveness all under one roof
+            Starting from basic website designs, including CMS and online store building to highly complex business website apps and design solutions, we will customize the best of web development solutions for you.
+                </p>
+              </div>
+
+              <div className="row">
+                <div className="col-lg-6 col-md-10 col-xs-12">
+                  <ul className="listul">
+                    <li className="wow animate__fadeInUp" data-wow-delay="0.2s">
+                    Custom Application Development
+                    </li>
+                    <li className="wow animate__fadeInUp" data-wow-delay="0.4s">
+                    Ecommerce Development
+                    </li>
+                    <li className="wow animate__fadeInUp" data-wow-delay="0.6s">
+                    MEAN Stack Development
+                    </li>
+            
+                  </ul>
+                </div>
+                <div className="col-lg-6 col-md-10 col-xs-12">
+                  <ul className="listul">
+                    <li className="wow animate__fadeInUp" data-wow-delay="0.2s">
+                    Content Management System (CMS)
+                    </li>
+                    <li className="wow animate__fadeInUp" data-wow-delay="0.4s">
+                    Social Media Apps
+                    </li>
+               
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-lg-6 col-md-10 col-xs-12 px-lg-32 px-xs-10 py-lg-32 py-xs-10 wow animate__fadeInUp row align-items-center justify-content-center "
+              data-wow-delay="0.6s"
+            >
+              <div className=" row align-items-center justify-content-center ">
+                <img src={WebDevelopment} alt={WebDevelopment} className="width-100" />
               </div>
             </div>
           </div>
