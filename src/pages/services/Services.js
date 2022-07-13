@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import WOW from "wowjs";
 import UiUx from "../../images/services/UiUx.svg";
-
+import Mobile from '../../images/services/mobiledevelopment.svg'
 const Services = () => {
   useEffect(() => {
     new WOW.WOW({
@@ -98,14 +98,14 @@ const Services = () => {
               </div>
             </div>
           </div>
-          {/* WebDevelopment */}
-          {/* <div className="row py-32 justify-content-center">
-          <div
-              className="col-lg-6 col-md-10 col-xs-12 px-lg-32 px-xs-10 py-lg-32 py-xs-10 wow animate__fadeInUp row align-items-center justify-content-center "
+          {/* Mobile */}
+          <div className=" row py-32 justify-content-center display-flex  flex-lg-row flex-xs-column-reverse">
+            <div  className="col-lg-6 col-md-10 col-xs-12 px-lg-32 px-xs-10 py-lg-32 py-xs-10
+             wow animate__fadeInUp row align-items-center justify-content-center "
               data-wow-delay="0.6s"
             >
               <div className=" row align-items-center justify-content-center ">
-                <img src={UiUx} alt={UiUx} className="width-100" />
+                <img src={Mobile} alt={Mobile} className="width-100" />
               </div>
             </div>
             <div className="col-lg-6 col-md-10 col-xs-12 px-lg-32 px-xs-10 py-lg-32 py-xs-10">
@@ -114,17 +114,17 @@ const Services = () => {
                   className="h3 white  wow animate__fadeInUp"
                   data-wow-delay="0.6s"
                 >
-                  UX design
+                 Mobile
                 </h3>
                 <p
                   className="p white py-24  wow animate__fadeInUp"
                   data-wow-delay="0.8s"
                 >
-                  UX drives UI. Our team of UX designers at EZRO Tech have ample
-                  of years of experience in the core areas of user experience,
-                  which helps them collaborate the finer modules of usability
-                  and functionality in-line with business goals and end-user
-                  needs
+                  Intuitive designs combined with compelling user experience are
+                  what makes our apps stand ahead in the digital age. Seamless
+                  experience driven by international standards in collaboration
+                  with out-of-the-box ideas is the specialty of EzroTech apps
+                  helping your business accomplish its goals.
                 </p>
               </div>
 
@@ -132,36 +132,35 @@ const Services = () => {
                 <div className="col-lg-6 col-md-10 col-xs-12">
                   <ul className="listul">
                     <li className="wow animate__fadeInUp" data-wow-delay="0.2s">
-                      UX Research
+                    Android App Development
                     </li>
                     <li className="wow animate__fadeInUp" data-wow-delay="0.4s">
-                      Information Architecture
+                    React Native App Development
                     </li>
                     <li className="wow animate__fadeInUp" data-wow-delay="0.6s">
-                      Mood Boards
+                    PhoneGap App Development
                     </li>
                     <li className="wow animate__fadeInUp" data-wow-delay="0.8s">
-                      UX Testing
+                    iPhone Development
                     </li>
                   </ul>
                 </div>
                 <div className="col-lg-6 col-md-10 col-xs-12">
                   <ul className="listul">
                     <li className="wow animate__fadeInUp" data-wow-delay="0.2s">
-                      Interaction Design
+                    Xamarin App Development
                     </li>
                     <li className="wow animate__fadeInUp" data-wow-delay="0.4s">
-                      Information Architecture
+                    iPad App Development
                     </li>
                     <li className="wow animate__fadeInUp" data-wow-delay="0.6s">
-                      Wire framing
+                    Apple Watch App Development
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
-           
-          </div> */}
+          </div>
         </div>
       </section>
     </>

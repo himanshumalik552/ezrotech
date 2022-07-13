@@ -2851,9 +2851,7 @@
   .flex-xs-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-xs-row-reverse {
-    flex-direction: row-reverse;
-  }
+
   .flex-xs-inherit {
     flex-direction: inherit;
   }
@@ -2909,9 +2907,7 @@
   .flex-xs-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-xs-row-reverse {
-    flex-direction: row-reverse;
-  }
+
   .flex-xs-inherit {
     flex-direction: inherit;
   }
@@ -2967,9 +2963,7 @@
   .flex-xs-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-xs-row-reverse {
-    flex-direction: row-reverse;
-  }
+
   .flex-xs-inherit {
     flex-direction: inherit;
   }
@@ -3024,9 +3018,6 @@
   }
   .flex-xs-column-reverse {
     flex-direction: column-reverse;
-  }
-  .flex-xs-row-reverse {
-    flex-direction: row-reverse;
   }
   .flex-xs-inherit {
     flex-direction: inherit;
@@ -3083,9 +3074,7 @@
   .flex-xs-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-xs-row-reverse {
-    flex-direction: row-reverse;
-  }
+
   .flex-xs-inherit {
     flex-direction: inherit;
   }
@@ -3141,9 +3130,7 @@
   .flex-xs-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-xs-row-reverse {
-    flex-direction: row-reverse;
-  }
+
   .flex-xs-inherit {
     flex-direction: inherit;
   }
@@ -3199,9 +3186,7 @@
   .flex-xs-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-xs-row-reverse {
-    flex-direction: row-reverse;
-  }
+
   .flex-xs-inherit {
     flex-direction: inherit;
   }
@@ -3257,9 +3242,7 @@
   .flex-xs-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-xs-row-reverse {
-    flex-direction: row-reverse;
-  }
+
   .flex-xs-inherit {
     flex-direction: inherit;
   }
@@ -3315,9 +3298,7 @@
   .flex-xs-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-xs-row-reverse {
-    flex-direction: row-reverse;
-  }
+
   .flex-xs-inherit {
     flex-direction: inherit;
   }
@@ -3373,9 +3354,7 @@
   .flex-xs-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-xs-row-reverse {
-    flex-direction: row-reverse;
-  }
+
   .flex-xs-inherit {
     flex-direction: inherit;
   }
@@ -3431,9 +3410,7 @@
   .flex-xs-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-xs-row-reverse {
-    flex-direction: row-reverse;
-  }
+
   .flex-xs-inherit {
     flex-direction: inherit;
   }
@@ -3489,9 +3466,7 @@
   .flex-xs-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-xs-row-reverse {
-    flex-direction: row-reverse;
-  }
+
   .flex-xs-inherit {
     flex-direction: inherit;
   }
@@ -3547,9 +3522,7 @@
   .flex-xs-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-xs-row-reverse {
-    flex-direction: row-reverse;
-  }
+
   .flex-xs-inherit {
     flex-direction: inherit;
   }
@@ -3605,9 +3578,7 @@
   .flex-xs-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-xs-row-reverse {
-    flex-direction: row-reverse;
-  }
+
   .flex-xs-inherit {
     flex-direction: inherit;
   }
@@ -3663,9 +3634,7 @@
   .flex-xs-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-xs-row-reverse {
-    flex-direction: row-reverse;
-  }
+
   .flex-xs-inherit {
     flex-direction: inherit;
   }
@@ -3721,9 +3690,7 @@
   .flex-xs-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-xs-row-reverse {
-    flex-direction: row-reverse;
-  }
+
   .flex-xs-inherit {
     flex-direction: inherit;
   }
@@ -3779,9 +3746,7 @@
   .flex-xs-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-xs-row-reverse {
-    flex-direction: row-reverse;
-  }
+
   .flex-xs-inherit {
     flex-direction: inherit;
   }
@@ -3837,9 +3802,7 @@
   .flex-xs-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-xs-row-reverse {
-    flex-direction: row-reverse;
-  }
+
   .flex-xs-inherit {
     flex-direction: inherit;
   }
@@ -3895,9 +3858,7 @@
   .flex-xs-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-xs-row-reverse {
-    flex-direction: row-reverse;
-  }
+
   .flex-xs-inherit {
     flex-direction: inherit;
   }
@@ -3953,9 +3914,7 @@
   .flex-xs-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-xs-row-reverse {
-    flex-direction: row-reverse;
-  }
+
   .flex-xs-inherit {
     flex-direction: inherit;
   }
@@ -4011,9 +3970,7 @@
   .flex-xs-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-xs-row-reverse {
-    flex-direction: row-reverse;
-  }
+
   .flex-xs-inherit {
     flex-direction: inherit;
   }
@@ -4069,9 +4026,7 @@
   .flex-xs-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-xs-row-reverse {
-    flex-direction: row-reverse;
-  }
+
   .flex-xs-inherit {
     flex-direction: inherit;
   }
@@ -4127,11 +4082,12 @@
   .flex-xs-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-xs-row-reverse {
-    flex-direction: row-reverse;
-  }
+
   .flex-xs-inherit {
     flex-direction: inherit;
+  }
+  .flex-xs-row-reverse {
+    flex-direction: row-reverse;
   }
   .flex-xs-unset {
     flex-direction: unset;
@@ -4185,9 +4141,7 @@
   .flex-xs-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-xs-row-reverse {
-    flex-direction: row-reverse;
-  }
+
   .flex-xs-inherit {
     flex-direction: inherit;
   }
@@ -4243,9 +4197,7 @@
   .flex-xs-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-xs-row-reverse {
-    flex-direction: row-reverse;
-  }
+
   .flex-xs-inherit {
     flex-direction: inherit;
   }
@@ -4301,9 +4253,7 @@
   .flex-xs-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-xs-row-reverse {
-    flex-direction: row-reverse;
-  }
+
   .flex-xs-inherit {
     flex-direction: inherit;
   }
@@ -4359,9 +4309,7 @@
   .flex-xs-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-xs-row-reverse {
-    flex-direction: row-reverse;
-  }
+
   .flex-xs-inherit {
     flex-direction: inherit;
   }
@@ -4417,9 +4365,7 @@
   .flex-xs-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-xs-row-reverse {
-    flex-direction: row-reverse;
-  }
+
   .flex-xs-inherit {
     flex-direction: inherit;
   }
@@ -4475,9 +4421,7 @@
   .flex-xs-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-xs-row-reverse {
-    flex-direction: row-reverse;
-  }
+
   .flex-xs-inherit {
     flex-direction: inherit;
   }
@@ -4533,9 +4477,7 @@
   .flex-xs-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-xs-row-reverse {
-    flex-direction: row-reverse;
-  }
+
   .flex-xs-inherit {
     flex-direction: inherit;
   }
@@ -4591,9 +4533,7 @@
   .flex-xs-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-xs-row-reverse {
-    flex-direction: row-reverse;
-  }
+
   .flex-xs-inherit {
     flex-direction: inherit;
   }
@@ -4649,9 +4589,7 @@
   .flex-xs-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-xs-row-reverse {
-    flex-direction: row-reverse;
-  }
+
   .flex-xs-inherit {
     flex-direction: inherit;
   }
@@ -4707,9 +4645,7 @@
   .flex-xs-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-xs-row-reverse {
-    flex-direction: row-reverse;
-  }
+
   .flex-xs-inherit {
     flex-direction: inherit;
   }
@@ -4765,9 +4701,7 @@
   .flex-xs-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-xs-row-reverse {
-    flex-direction: row-reverse;
-  }
+
   .flex-xs-inherit {
     flex-direction: inherit;
   }
@@ -4823,9 +4757,7 @@
   .flex-xs-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-xs-row-reverse {
-    flex-direction: row-reverse;
-  }
+
   .flex-xs-inherit {
     flex-direction: inherit;
   }
@@ -4881,9 +4813,7 @@
   .flex-xs-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-xs-row-reverse {
-    flex-direction: row-reverse;
-  }
+
   .flex-xs-inherit {
     flex-direction: inherit;
   }
@@ -4939,9 +4869,7 @@
   .flex-xs-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-xs-row-reverse {
-    flex-direction: row-reverse;
-  }
+
   .flex-xs-inherit {
     flex-direction: inherit;
   }
@@ -4997,9 +4925,7 @@
   .flex-xs-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-xs-row-reverse {
-    flex-direction: row-reverse;
-  }
+
   .flex-xs-inherit {
     flex-direction: inherit;
   }
@@ -5055,9 +4981,7 @@
   .flex-xs-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-xs-row-reverse {
-    flex-direction: row-reverse;
-  }
+
   .flex-xs-inherit {
     flex-direction: inherit;
   }
@@ -5113,9 +5037,7 @@
   .flex-xs-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-xs-row-reverse {
-    flex-direction: row-reverse;
-  }
+
   .flex-xs-inherit {
     flex-direction: inherit;
   }
@@ -5171,9 +5093,7 @@
   .flex-xs-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-xs-row-reverse {
-    flex-direction: row-reverse;
-  }
+
   .flex-xs-inherit {
     flex-direction: inherit;
   }
@@ -5229,9 +5149,7 @@
   .flex-xs-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-xs-row-reverse {
-    flex-direction: row-reverse;
-  }
+
   .flex-xs-inherit {
     flex-direction: inherit;
   }
@@ -5287,9 +5205,7 @@
   .flex-xs-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-xs-row-reverse {
-    flex-direction: row-reverse;
-  }
+
   .flex-xs-inherit {
     flex-direction: inherit;
   }
@@ -5405,9 +5321,7 @@
   .flex-sm-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-sm-row-reverse {
-    flex-direction: row-reverse;
-  }
+ 
   .flex-sm-inherit {
     flex-direction: inherit;
   }
@@ -5463,9 +5377,7 @@
   .flex-sm-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-sm-row-reverse {
-    flex-direction: row-reverse;
-  }
+ 
   .flex-sm-inherit {
     flex-direction: inherit;
   }
@@ -5521,9 +5433,7 @@
   .flex-sm-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-sm-row-reverse {
-    flex-direction: row-reverse;
-  }
+ 
   .flex-sm-inherit {
     flex-direction: inherit;
   }
@@ -5579,9 +5489,7 @@
   .flex-sm-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-sm-row-reverse {
-    flex-direction: row-reverse;
-  }
+ 
   .flex-sm-inherit {
     flex-direction: inherit;
   }
@@ -5637,9 +5545,7 @@
   .flex-sm-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-sm-row-reverse {
-    flex-direction: row-reverse;
-  }
+ 
   .flex-sm-inherit {
     flex-direction: inherit;
   }
@@ -5695,9 +5601,7 @@
   .flex-sm-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-sm-row-reverse {
-    flex-direction: row-reverse;
-  }
+ 
   .flex-sm-inherit {
     flex-direction: inherit;
   }
@@ -5753,9 +5657,7 @@
   .flex-sm-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-sm-row-reverse {
-    flex-direction: row-reverse;
-  }
+ 
   .flex-sm-inherit {
     flex-direction: inherit;
   }
@@ -5811,9 +5713,7 @@
   .flex-sm-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-sm-row-reverse {
-    flex-direction: row-reverse;
-  }
+ 
   .flex-sm-inherit {
     flex-direction: inherit;
   }
@@ -5869,9 +5769,7 @@
   .flex-sm-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-sm-row-reverse {
-    flex-direction: row-reverse;
-  }
+ 
   .flex-sm-inherit {
     flex-direction: inherit;
   }
@@ -5927,9 +5825,7 @@
   .flex-sm-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-sm-row-reverse {
-    flex-direction: row-reverse;
-  }
+ 
   .flex-sm-inherit {
     flex-direction: inherit;
   }
@@ -5985,9 +5881,7 @@
   .flex-sm-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-sm-row-reverse {
-    flex-direction: row-reverse;
-  }
+ 
   .flex-sm-inherit {
     flex-direction: inherit;
   }
@@ -6043,9 +5937,7 @@
   .flex-sm-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-sm-row-reverse {
-    flex-direction: row-reverse;
-  }
+ 
   .flex-sm-inherit {
     flex-direction: inherit;
   }
@@ -6101,9 +5993,7 @@
   .flex-sm-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-sm-row-reverse {
-    flex-direction: row-reverse;
-  }
+ 
   .flex-sm-inherit {
     flex-direction: inherit;
   }
@@ -6159,9 +6049,7 @@
   .flex-sm-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-sm-row-reverse {
-    flex-direction: row-reverse;
-  }
+ 
   .flex-sm-inherit {
     flex-direction: inherit;
   }
@@ -6217,9 +6105,7 @@
   .flex-sm-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-sm-row-reverse {
-    flex-direction: row-reverse;
-  }
+ 
   .flex-sm-inherit {
     flex-direction: inherit;
   }
@@ -6275,9 +6161,7 @@
   .flex-sm-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-sm-row-reverse {
-    flex-direction: row-reverse;
-  }
+ 
   .flex-sm-inherit {
     flex-direction: inherit;
   }
@@ -6333,9 +6217,7 @@
   .flex-sm-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-sm-row-reverse {
-    flex-direction: row-reverse;
-  }
+ 
   .flex-sm-inherit {
     flex-direction: inherit;
   }
@@ -6391,9 +6273,7 @@
   .flex-sm-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-sm-row-reverse {
-    flex-direction: row-reverse;
-  }
+ 
   .flex-sm-inherit {
     flex-direction: inherit;
   }
@@ -6449,9 +6329,7 @@
   .flex-sm-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-sm-row-reverse {
-    flex-direction: row-reverse;
-  }
+ 
   .flex-sm-inherit {
     flex-direction: inherit;
   }
@@ -6507,9 +6385,7 @@
   .flex-sm-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-sm-row-reverse {
-    flex-direction: row-reverse;
-  }
+ 
   .flex-sm-inherit {
     flex-direction: inherit;
   }
@@ -6565,9 +6441,7 @@
   .flex-sm-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-sm-row-reverse {
-    flex-direction: row-reverse;
-  }
+ 
   .flex-sm-inherit {
     flex-direction: inherit;
   }
@@ -6623,9 +6497,7 @@
   .flex-sm-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-sm-row-reverse {
-    flex-direction: row-reverse;
-  }
+ 
   .flex-sm-inherit {
     flex-direction: inherit;
   }
@@ -6681,9 +6553,7 @@
   .flex-sm-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-sm-row-reverse {
-    flex-direction: row-reverse;
-  }
+ 
   .flex-sm-inherit {
     flex-direction: inherit;
   }
@@ -6739,9 +6609,7 @@
   .flex-sm-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-sm-row-reverse {
-    flex-direction: row-reverse;
-  }
+ 
   .flex-sm-inherit {
     flex-direction: inherit;
   }
@@ -6797,9 +6665,7 @@
   .flex-sm-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-sm-row-reverse {
-    flex-direction: row-reverse;
-  }
+ 
   .flex-sm-inherit {
     flex-direction: inherit;
   }
@@ -6855,9 +6721,7 @@
   .flex-sm-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-sm-row-reverse {
-    flex-direction: row-reverse;
-  }
+ 
   .flex-sm-inherit {
     flex-direction: inherit;
   }
@@ -6913,9 +6777,7 @@
   .flex-sm-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-sm-row-reverse {
-    flex-direction: row-reverse;
-  }
+ 
   .flex-sm-inherit {
     flex-direction: inherit;
   }
@@ -6971,9 +6833,7 @@
   .flex-sm-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-sm-row-reverse {
-    flex-direction: row-reverse;
-  }
+ 
   .flex-sm-inherit {
     flex-direction: inherit;
   }
@@ -7029,9 +6889,7 @@
   .flex-sm-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-sm-row-reverse {
-    flex-direction: row-reverse;
-  }
+ 
   .flex-sm-inherit {
     flex-direction: inherit;
   }
@@ -7087,9 +6945,7 @@
   .flex-sm-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-sm-row-reverse {
-    flex-direction: row-reverse;
-  }
+ 
   .flex-sm-inherit {
     flex-direction: inherit;
   }
@@ -7145,9 +7001,7 @@
   .flex-sm-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-sm-row-reverse {
-    flex-direction: row-reverse;
-  }
+ 
   .flex-sm-inherit {
     flex-direction: inherit;
   }
@@ -7203,9 +7057,7 @@
   .flex-sm-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-sm-row-reverse {
-    flex-direction: row-reverse;
-  }
+ 
   .flex-sm-inherit {
     flex-direction: inherit;
   }
@@ -7261,9 +7113,7 @@
   .flex-sm-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-sm-row-reverse {
-    flex-direction: row-reverse;
-  }
+ 
   .flex-sm-inherit {
     flex-direction: inherit;
   }
@@ -7319,9 +7169,7 @@
   .flex-sm-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-sm-row-reverse {
-    flex-direction: row-reverse;
-  }
+ 
   .flex-sm-inherit {
     flex-direction: inherit;
   }
@@ -7377,9 +7225,7 @@
   .flex-sm-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-sm-row-reverse {
-    flex-direction: row-reverse;
-  }
+ 
   .flex-sm-inherit {
     flex-direction: inherit;
   }
@@ -7435,9 +7281,7 @@
   .flex-sm-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-sm-row-reverse {
-    flex-direction: row-reverse;
-  }
+ 
   .flex-sm-inherit {
     flex-direction: inherit;
   }
@@ -7493,9 +7337,7 @@
   .flex-sm-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-sm-row-reverse {
-    flex-direction: row-reverse;
-  }
+ 
   .flex-sm-inherit {
     flex-direction: inherit;
   }
@@ -7551,9 +7393,7 @@
   .flex-sm-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-sm-row-reverse {
-    flex-direction: row-reverse;
-  }
+ 
   .flex-sm-inherit {
     flex-direction: inherit;
   }
@@ -7609,9 +7449,7 @@
   .flex-sm-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-sm-row-reverse {
-    flex-direction: row-reverse;
-  }
+ 
   .flex-sm-inherit {
     flex-direction: inherit;
   }
@@ -7667,9 +7505,7 @@
   .flex-sm-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-sm-row-reverse {
-    flex-direction: row-reverse;
-  }
+ 
   .flex-sm-inherit {
     flex-direction: inherit;
   }
@@ -7725,9 +7561,7 @@
   .flex-sm-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-sm-row-reverse {
-    flex-direction: row-reverse;
-  }
+ 
   .flex-sm-inherit {
     flex-direction: inherit;
   }
@@ -7783,9 +7617,7 @@
   .flex-sm-column-reverse {
     flex-direction: column-reverse;
   }
-  .flex-sm-row-reverse {
-    flex-direction: row-reverse;
-  }
+ 
   .flex-sm-inherit {
     flex-direction: inherit;
   }

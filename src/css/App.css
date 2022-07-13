@@ -152,8 +152,7 @@ box-sizing: border-box;
 .listul {
   list-style: none;
 color: white;
-margin-top: 10px;
-font-size: 18px;
+font-size: 14px;
 }
 .listul li{
   padding-top: 16px;
