@@ -1,8 +1,9 @@
 import React, { useEffect } from "react";
 import WOW from "wowjs";
 import UiUx from "../../images/services/UiUx.svg";
-import Mobile from '../../images/services/mobiledevelopment.svg'
-import WebDevelopment from '../../images/services/webdevelopment.svg'
+import Mobile from "../../images/services/mobiledevelopment.svg";
+import WebDevelopment from "../../images/services/webdevelopment.svg";
+import DigitalMarketing from "../../images/services/digitalmarketing.svg";
 
 const Services = () => {
   useEffect(() => {
@@ -102,12 +103,13 @@ const Services = () => {
           </div>
           {/* Mobile */}
           <div className=" row py-32 justify-content-center display-flex  flex-lg-row flex-xs-column-reverse">
-            <div  className="col-lg-6 col-md-10 col-xs-12 px-lg-32 px-xs-10 py-lg-32 py-xs-10
+            <div
+              className="col-lg-6 col-md-10 col-xs-12 px-lg-32 px-xs-10 py-lg-32 py-xs-10
              wow animate__fadeInUp row align-items-center justify-content-center "
               data-wow-delay="0.6s"
             >
               <div className=" row align-items-center justify-content-center ">
-                <img src={Mobile} alt={Mobile} className="width-100" />
+                <img src={Mobile} alt={Mobile} className="width-80" />
               </div>
             </div>
             <div className="col-lg-6 col-md-10 col-xs-12 px-lg-32 px-xs-10 py-lg-32 py-xs-10">
@@ -116,7 +118,7 @@ const Services = () => {
                   className="h3 white  wow animate__fadeInUp"
                   data-wow-delay="0.6s"
                 >
-                 Mobile
+                  Mobile
                 </h3>
                 <p
                   className="p white py-24  wow animate__fadeInUp"
@@ -134,29 +136,26 @@ const Services = () => {
                 <div className="col-lg-6 col-md-10 col-xs-12">
                   <ul className="listul">
                     <li className="wow animate__fadeInUp" data-wow-delay="0.2s">
-                    Android App Development
+                      Android App Development
                     </li>
                     <li className="wow animate__fadeInUp" data-wow-delay="0.4s">
-                    React Native App Development
+                      React Native App Development
                     </li>
                     <li className="wow animate__fadeInUp" data-wow-delay="0.6s">
-                    PhoneGap App Development
+                      PhoneGap App Development
                     </li>
                     <li className="wow animate__fadeInUp" data-wow-delay="0.8s">
-                    iPhone Development
+                      iPhone Development
                     </li>
                   </ul>
                 </div>
                 <div className="col-lg-6 col-md-10 col-xs-12">
                   <ul className="listul">
                     <li className="wow animate__fadeInUp" data-wow-delay="0.2s">
-                    Xamarin App Development
+                      Xamarin App Development
                     </li>
                     <li className="wow animate__fadeInUp" data-wow-delay="0.4s">
-                    iPad App Development
-                    </li>
-                    <li className="wow animate__fadeInUp" data-wow-delay="0.6s">
-                    Apple Watch App Development
+                      iPad App Development
                     </li>
                   </ul>
                 </div>
@@ -171,14 +170,17 @@ const Services = () => {
                   className="h3 white  wow animate__fadeInUp"
                   data-wow-delay="0.6s"
                 >
-                 Web Development
+                  Web Development
                 </h3>
                 <p
                   className="p white py-24  wow animate__fadeInUp"
                   data-wow-delay="0.8s"
                 >
-                  Cross-browser and cross-device compatibility driven by mobile responsiveness all under one roof
-            Starting from basic website designs, including CMS and online store building to highly complex business website apps and design solutions, we will customize the best of web development solutions for you.
+                  Cross-browser and cross-device compatibility driven by mobile
+                  responsiveness all under one roof Starting from basic website
+                  designs, including CMS and online store building to highly
+                  complex business website apps and design solutions, we will
+                  customize the best of web development solutions for you.
                 </p>
               </div>
 
@@ -186,26 +188,24 @@ const Services = () => {
                 <div className="col-lg-6 col-md-10 col-xs-12">
                   <ul className="listul">
                     <li className="wow animate__fadeInUp" data-wow-delay="0.2s">
-                    Custom Application Development
+                      Custom Application Development
                     </li>
                     <li className="wow animate__fadeInUp" data-wow-delay="0.4s">
-                    Ecommerce Development
+                      Ecommerce Development
                     </li>
                     <li className="wow animate__fadeInUp" data-wow-delay="0.6s">
-                    MEAN Stack Development
+                      MEAN Stack Development
                     </li>
-            
                   </ul>
                 </div>
                 <div className="col-lg-6 col-md-10 col-xs-12">
                   <ul className="listul">
                     <li className="wow animate__fadeInUp" data-wow-delay="0.2s">
-                    Content Management System (CMS)
+                      Content Management System (CMS)
                     </li>
                     <li className="wow animate__fadeInUp" data-wow-delay="0.4s">
-                    Social Media Apps
+                      Social Media Apps
                     </li>
-               
                   </ul>
                 </div>
               </div>
@@ -215,7 +215,78 @@ const Services = () => {
               data-wow-delay="0.6s"
             >
               <div className=" row align-items-center justify-content-center ">
-                <img src={WebDevelopment} alt={WebDevelopment} className="width-100" />
+                <img
+                  src={WebDevelopment}
+                  alt={WebDevelopment}
+                  className="width-100"
+                />
+              </div>
+            </div>
+          </div>
+          {/* Digital marketing */}
+          <div className=" row py-32 justify-content-center display-flex  flex-lg-row flex-xs-column-reverse">
+            <div
+              className="col-lg-6 col-md-10 col-xs-12 px-lg-32 px-xs-10 py-lg-32 py-xs-10
+             wow animate__fadeInUp row align-items-center justify-content-center "
+              data-wow-delay="0.6s"
+            >
+              <div className=" row align-items-center justify-content-center ">
+                <img src={DigitalMarketing} alt={DigitalMarketing} className="width-70" />
+              </div>
+            </div>
+            <div className="col-lg-6 col-md-10 col-xs-12 px-lg-32 px-xs-10 py-lg-32 py-xs-10">
+              <div>
+                <h3
+                  className="h3 white  wow animate__fadeInUp"
+                  data-wow-delay="0.6s"
+                >
+                  Digital marketing
+                </h3>
+                <p
+                  className="p white py-24  wow animate__fadeInUp"
+                  data-wow-delay="0.8s"
+                >
+                  Developing a long-term and reliable marketing strategy that
+                  will flourish and live a longer life, while ensuring your
+                  customers stay with you and tell the world the tales of your
+                  business’s awesomeness transforming our custom-made business
+                  strategies into real time success.
+                </p>
+              </div>
+
+              <div className="row">
+                <div className="col-lg-6 col-md-10 col-xs-12">
+                  <ul className="listul">
+                    <li className="wow animate__fadeInUp" data-wow-delay="0.2s">
+                    Inbound Marketing
+                    </li>
+                    <li className="wow animate__fadeInUp" data-wow-delay="0.4s">
+                    SEO
+                    </li>
+                    <li className="wow animate__fadeInUp" data-wow-delay="0.6s">
+                    SEM & PPC
+                    </li>
+                    <li className="wow animate__fadeInUp" data-wow-delay="0.8s">
+                    Social Media Optimization
+                    </li>
+                  </ul>
+                </div>
+                <div className="col-lg-6 col-md-10 col-xs-12">
+                  <ul className="listul">
+                    <li className="wow animate__fadeInUp" data-wow-delay="0.2s">
+                    Content Marketing
+                    </li>
+                    <li className="wow animate__fadeInUp" data-wow-delay="0.4s">
+                    Online Reputation Management
+                    </li>
+                    <li className="wow animate__fadeInUp" data-wow-delay="0.4s">
+                    Email Marketing
+                    </li>
+                    <li className="wow animate__fadeInUp" data-wow-delay="0.4s">
+                    Analytics Consultation
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
