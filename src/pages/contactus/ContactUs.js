@@ -19,8 +19,6 @@ const ContactUs = () => {
   const [email, setEmail] = React.useState("");
   const [phone, setPhone] = React.useState("");
   const [message, setMessage] = React.useState("");
-
-
 ;
   const handleClose = () => {
     setOpen(false);
@@ -173,7 +171,7 @@ const ContactUs = () => {
                         </Grid>
                         <Grid item xs={12} className="py-8">
                           <Button
-                            // disabled={true}
+                           disabled={firstname && email ===""?false:true}
                             type="submit"
                             onClick={sendEmail}
                             variant="contained"

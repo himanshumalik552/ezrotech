@@ -78,20 +78,20 @@ const AboutUs = () => {
         </div>
       </section>
 
-      <section className="text-color-white mb-20">
+      {/* <section className="text-color-white mb-20">
         <div className="display-flex justify-content-center align-items-center flex-column text-align-center wow animate__fadeInUp ">
-        <div className="col-lg-8 col-xs-11">
+        <div className="col-lg-7 col-md-10 col-xs-12">
             <p className="h2 py-20 ">Our Story</p>
             <p className="p py-5">EzroTech was founded in march 2022 we have accomplished so much over the time.</p>
             <p>Our Founder and CEO [Name] was inspired to start this company by [ one or two sources of inspiration].</p>
          </div>
         </div>
-      </section>
+      </section> */}
 
       
       <section className="text-color-white mt-20">
-        <div className="display-flex justify-content-center align-items-center flex-column text-align-center wow animate__fadeInUp">
-        <div className="col-lg-8 col-xs-11">
+        <div className="row justify-content-center align-items-center flex-column text-align-center wow animate__fadeInUp">
+        <div className="col-lg-6 col-md-10 col-xs-12">
             <p className="h2 py-20">Our Mission</p>
             <p className="p ">Our Mission is to provide such product to our coustomer which are easy to use having secure environment and will be efficient and having optimum memory
 usage without compromising quality.</p>
