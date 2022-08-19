@@ -9,7 +9,7 @@ const Home = () => {
       live: false,
     }).init();
   }, []);
-  let aboutURL = "";
+  // let aboutURL = "";
   return (
     <>
       {/* Section 1 */}
@@ -97,7 +97,7 @@ const Home = () => {
       </div>
     
     </section>
-      <section className="wrapper  py-lg-72 py-md-48 py-20 text-color-white ">
+      {/* <section className="wrapper  py-lg-72 py-md-48 py-20 text-color-white ">
         <div className="container-xxl py-lg-0 py-16 mx-auto">
           <div className="row flex-column-reverse py-lg-32 py-md-20 flex-lg-row ">
             <div className="col-lg-6 col-md-12 col-xs-12 py-20 pl-lg-72 my-0 display-flex justify-content-center flex-column ">
@@ -155,7 +155,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Section-3 */}
     </>
   );

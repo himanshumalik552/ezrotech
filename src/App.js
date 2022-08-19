@@ -5,17 +5,17 @@ import 'animate.css';
 import { BrowserRouter as Router } from "react-router-dom";
 import './css/Framework.css';
 import './css/App.css';
-
+import { MobileFooter } from "./pages/Footer/MobileFooter";
 import Navbar from "./pages/navbar/Navbar";
-import Home from "./pages/Home";
-import About from "./pages/AboutUs";
-import TechTeam from "./pages/techteam/TechTeam";
-import Services from './pages/services/Services';
 import FooterCommon from "./pages/Footer/FooterCommon";
 import WhatsApp from "./pages/WhatsApp";
-import { Switch, Route } from "react-router-dom";
-import { MobileFooter } from "./pages/Footer/MobileFooter";
-import ContactUs from "./pages/contactus/ContactUs";
+import SectionHome from "./SectionHome";
+// import Home from "./pages/Home";
+// import About from "./pages/AboutUs";
+// import TechTeam from "./pages/techteam/TechTeam";
+// import Services from './pages/services/Services';
+// import { Switch, Route } from "react-router-dom";
+// import ContactUs from "./pages/contactus/ContactUs";
 
 
 function App() {
@@ -30,14 +30,15 @@ function App() {
 
     <Router>
       <Navbar />
-      <Switch>
+    <SectionHome/>
+      {/* <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/contactus" component={ContactUs} />
         <Route path="/techteam" component={TechTeam} />
         <Route path="/services" component={Services} />
         <Route path="/footer" component={FooterCommon} />
-      </Switch>
+      </Switch> */}
       <MobileFooter/>
       <FooterCommon />  
       <WhatsApp />

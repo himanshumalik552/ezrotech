@@ -89,14 +89,16 @@ const AboutUs = () => {
       </section> */}
 
       
-      <section className="text-color-white mt-20">
+      <section id="mission" className="text-color-white mt-20">
+      <div className="container-xxl py-lg-0 py-16 mx-auto">
         <div className="row justify-content-center align-items-center flex-column text-align-center wow animate__fadeInUp">
-        <div className="col-lg-6 col-md-10 col-xs-12">
+        <div className="col-lg-7 col-md-10 col-xs-12">
             <p className="h2 py-20">Our Mission</p>
             <p className="p ">Our Mission is to provide such product to our coustomer which are easy to use having secure environment and will be efficient and having optimum memory
 usage without compromising quality.</p>
             <p className="p py-10">We especially love the emphasis on teamwork and supporting employees so that the people inside the organization can be in the best position to support their customers.</p>
             </div>
+        </div>
         </div>
       </section>
 

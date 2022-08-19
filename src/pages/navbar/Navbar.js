@@ -44,6 +44,41 @@ const Navbar = () => {
               <a id="navbar-toggle" href="#!"><span></span></a></div>
             <ul class="nav-list">
               <li>
+              <a href='#home' className={classes.link}>
+              Home
+            </a>
+              </li>
+              <li>
+              <a href='#services' className={classes.link}>
+              Services
+            </a>
+           
+              </li>
+              <li>
+              <a href='#techstack' className={classes.link}>
+              TechStack
+            </a>
+            </li>
+            <li>
+              <a href='#about' className={classes.link}>
+              AboutUs
+            </a>
+            </li>
+            <li>
+              <a href='#contactus' className={classes.link}>
+              ContactUs
+            </a>
+            </li>
+           
+            </ul>
+            <div/>
+          </nav>
+     
+          {/* <nav>
+            <div class="nav-mobile">
+              <a id="navbar-toggle" href="#!"><span></span></a></div>
+            <ul class="nav-list">
+              <li>
               <Link  to="/" className={classes.link}>
               Home
             </Link>
@@ -58,7 +93,7 @@ const Navbar = () => {
               <Link to="/services" className={classes.link}>
               Services
             </Link>
-                {/* <ul class="navbar-dropdown">
+                <ul class="navbar-dropdown">
                   <li>
                     <a href="#!">Sass</a>
                   </li>
@@ -68,14 +103,14 @@ const Navbar = () => {
                   <li>
                     <a href="#!">Stylus</a>
                   </li>
-                </ul> */}
+                </ul>
               </li>
-              {/* <li>
+              <li>
               <Link to="/techteam" className={classes.link}>
               OurTeam
             </Link>
-              </li> */}
-              {/* <li>
+              </li>
+              <li>
                 <a href="#!">Category</a>
                 <ul class="navbar-dropdown">
                   <li>
@@ -88,7 +123,7 @@ const Navbar = () => {
                     <a href="#!">Stylus</a>
                   </li>
                 </ul>
-              </li> */}
+              </li>
               <li>
               <Link to="/contactus" className={classes.link}>
               ContactUs
@@ -96,10 +131,10 @@ const Navbar = () => {
               </li>
            
             </ul>
-          </nav>
+          </nav> */}
         </div>
       </section>
   )
-}
+};
 
 export default Navbar;
