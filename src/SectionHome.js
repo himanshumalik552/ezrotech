@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Service from "./pages/services/Services";
-import TechStack from "./pages/techStack/TechStack";
+// import TechStack from "./pages/techStack/TechStack";
 import AboutUs from "./pages/AboutUs";
-import ContactUs from './pages/contactus/ContactUs'
+// import ContactUs from './pages/contactus/ContactUs'
 const SectionHome = () => {
   return (
     <>
@@ -48,10 +48,7 @@ const SectionHome = () => {
       <section id="services">
         <Service />
       </section>
-
-      <section id="techstack"><TechStack/></section>
       <section id="about"><AboutUs/></section>
-      <section id="contactus"><ContactUs/></section>
       <section >
         <div className="bg_home"></div>
         <div className="bg_home bg2_home"></div>

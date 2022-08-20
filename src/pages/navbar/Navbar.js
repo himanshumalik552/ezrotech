@@ -39,7 +39,7 @@ const Navbar = () => {
             <img alt='logo' src={logo}
               className="logo pt-10" style={{width: "180px",height:"50px"}} /></Link>
           </div>
-          <nav>
+          {/* <nav>
             <div class="nav-mobile">
               <a id="navbar-toggle" href="#!"><span></span></a></div>
             <ul class="nav-list">
@@ -72,9 +72,9 @@ const Navbar = () => {
            
             </ul>
             <div/>
-          </nav>
+          </nav> */}
      
-          {/* <nav>
+          <nav>
             <div class="nav-mobile">
               <a id="navbar-toggle" href="#!"><span></span></a></div>
             <ul class="nav-list">
@@ -93,7 +93,7 @@ const Navbar = () => {
               <Link to="/services" className={classes.link}>
               Services
             </Link>
-                <ul class="navbar-dropdown">
+                {/* <ul class="navbar-dropdown">
                   <li>
                     <a href="#!">Sass</a>
                   </li>
@@ -103,14 +103,14 @@ const Navbar = () => {
                   <li>
                     <a href="#!">Stylus</a>
                   </li>
-                </ul>
+                </ul> */}
               </li>
-              <li>
+              {/* <li>
               <Link to="/techteam" className={classes.link}>
               OurTeam
             </Link>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <a href="#!">Category</a>
                 <ul class="navbar-dropdown">
                   <li>
@@ -123,7 +123,7 @@ const Navbar = () => {
                     <a href="#!">Stylus</a>
                   </li>
                 </ul>
-              </li>
+              </li> */}
               <li>
               <Link to="/contactus" className={classes.link}>
               ContactUs
@@ -131,7 +131,7 @@ const Navbar = () => {
               </li>
            
             </ul>
-          </nav> */}
+          </nav>
         </div>
       </section>
   )
