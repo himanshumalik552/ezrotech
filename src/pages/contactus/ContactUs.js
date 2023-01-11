@@ -66,7 +66,7 @@ const ContactUs = () => {
           <div className="row justify-content-center">
             <div className="title col-lg-7 col-md-10 col-xs-12 text-align-center ">
               <h2
-                className="service_heading h2 pb-24 text-color-white wow animate__fadeInUp "
+                className="service_heading h2 pb-24 text-color-white "
                 data-wow-delay="0.6s"
               >
                 ContactUs
@@ -74,7 +74,7 @@ const ContactUs = () => {
            
             </div>
           </div>
-          <div className="row App wow animate__fadeInUp "
+          <div className="row App  "
                 data-wow-delay="0.6s">
             <div className="col-lg-6 col-xs-12">
               <Grid style={{}}>
